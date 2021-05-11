@@ -1,0 +1,32 @@
+2021-05-09T10:03:12+00:00 CRITICAL Uncaught TypeError: strtolower(): Argument #1 ($string) must be of type string, array given in D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-content\plugins\give\includes\admin\admin-pages.php:136
+Stack trace:
+#0 [internal function]: strtolower(Array)
+#1 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-content\plugins\give\includes\admin\admin-pages.php(136): array_map('strtolower', Array)
+#2 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-content\plugins\give\includes\class-give-scripts.php(196): give_is_admin_page()
+#3 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-includes\class-wp-hook.php(292): Give_Scripts->admin_enqueue_scripts('widgets.php')
+#4 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#6 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-includes\class-wp-customize-widgets.php(680): do_action('admin_enqueue_s...', 'widgets.php')
+#7 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-includes\class-wp-hook.php(292): WP_Customize_Widgets->enqueue_scripts('')
+#8 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-admin\customize.php(123): do_action('customize_contr...')
+#11 {main}
+  thrown in D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-content\plugins\give\includes\admin\admin-pages.php on line 136
+
+2021-05-09T10:03:54+00:00 CRITICAL Uncaught TypeError: strtolower(): Argument #1 ($string) must be of type string, array given in D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-content\plugins\give\includes\admin\admin-pages.php:136
+Stack trace:
+#0 [internal function]: strtolower(Array)
+#1 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-content\plugins\give\includes\admin\admin-pages.php(136): array_map('strtolower', Array)
+#2 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-content\plugins\give\includes\class-give-scripts.php(196): give_is_admin_page()
+#3 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-includes\class-wp-hook.php(292): Give_Scripts->admin_enqueue_scripts('widgets.php')
+#4 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#6 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-includes\class-wp-customize-widgets.php(680): do_action('admin_enqueue_s...', 'widgets.php')
+#7 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-includes\class-wp-hook.php(292): WP_Customize_Widgets->enqueue_scripts('')
+#8 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-admin\customize.php(123): do_action('customize_contr...')
+#11 {main}
+  thrown in D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-content\plugins\give\includes\admin\admin-pages.php on line 136
+

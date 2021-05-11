@@ -1,0 +1,11 @@
+404error.png
+License : Free for commercial use
+Source : https://www.iconfinder.com/icons/34268/error_hand_written_icon#size=128
+
+lock.png
+License : http://opensource.org/licenses/MIT
+Source : https://www.iconfinder.com/icons/1814107/lock_padlock_secure_icon#size=128
+
+search.png
+License : http://opensource.org/licenses/MIT
+Source : https://www.iconfinder.com/icons/1814075/find_magnifier_magnifying_glass_search_icon#size=256

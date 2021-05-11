@@ -1,0 +1,2768 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Zoom Lite\n"
+"POT-Creation-Date: 2020-11-25 05:06+0700\n"
+"PO-Revision-Date: 2017-02-10 01:12+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:16
+msgid "Oops! That page cannot be found."
+msgstr ""
+
+#: 404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:25
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:33
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:42
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:44
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:54 page.php:31 single.php:27
+msgid "Comments are closed."
+msgstr ""
+
+#: contents/content-no-results.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: contents/content-no-results.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: contents/content-no-results.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: contents/content-no-results.php:32
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: contents/content-page.php:30 contents/content-single.php:34
+#: contents/content.php:87 image.php:92 inc/theme-comments.php:49
+msgid "Edit"
+msgstr ""
+
+#: contents/content.php:30
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: contents/content.php:42
+msgid "Continue reading"
+msgstr ""
+
+#: contents/content.php:57 contents/content.php:70 inc/theme-loop.php:363
+msgid ", "
+msgstr ""
+
+#: contents/content.php:62
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: contents/content.php:75
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: contents/content.php:84
+msgid "Leave a comment"
+msgstr ""
+
+#: contents/content.php:84
+msgid "1 Comment"
+msgstr ""
+
+#: contents/content.php:84
+msgid "% Comments"
+msgstr ""
+
+#: image.php:23
+msgid "Published"
+msgstr ""
+
+#: inc/admin/admin-init.php:30 inc/admin/zoom-about-page/about-config.php:34
+msgid "Optimize Your Theme"
+msgstr ""
+
+#: inc/admin/admin-init.php:33 inc/admin/zoom-about-page/about-config.php:41
+msgid "Want to make better look of your website?"
+msgstr ""
+
+#: inc/admin/admin-init.php:59
+msgid "ZOOM Theme"
+msgstr ""
+
+#: inc/admin/admin-init.php:60
+msgid ""
+"The following Post Formats will make you more easily to display image "
+"gallery, video or music player."
+msgstr ""
+
+#: inc/admin/extensions/ot-metaboxes.php:16
+msgid "Format: Audio"
+msgstr ""
+
+#: inc/admin/extensions/ot-metaboxes.php:17
+msgid ""
+"These settings enable you to embed mp3, ogg, wma, m4a or wav audio file type "
+"into your top of this post."
+msgstr ""
+
+#: inc/admin/extensions/ot-metaboxes.php:23
+msgid "File URL"
+msgstr ""
+
+#: inc/admin/extensions/ot-metaboxes.php:29
+#: inc/admin/extensions/ot-metaboxes.php:59
+msgid "Auto Play"
+msgstr ""
+
+#: inc/admin/extensions/ot-metaboxes.php:45
+msgid "Format: Video"
+msgstr ""
+
+#: inc/admin/extensions/ot-metaboxes.php:46
+msgid ""
+"These settings enable you to embed YouTube, Vimeo, mp4, m4v, webm, ogv, wmv, "
+"or flv video type into your top of this post."
+msgstr ""
+
+#: inc/admin/extensions/ot-metaboxes.php:52
+msgid "Video URL"
+msgstr ""
+
+#: inc/admin/extensions/ot-metaboxes.php:75
+msgid "Format: Gallery"
+msgstr ""
+
+#: inc/admin/extensions/ot-metaboxes.php:76
+msgid "The gallery you set here will appear on top of this post."
+msgstr ""
+
+#: inc/admin/extensions/ot-metaboxes.php:82
+#: inc/admin/tgm-plugin/tgm-hook.php:55
+#: option-tree/includes/ot-functions-admin.php:1724
+msgid "Gallery"
+msgstr ""
+
+#: inc/admin/extensions/ot-metaboxes.php:88
+msgid "Show Image Caption"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:326
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:327
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:329
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:331
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:332
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:341
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:347
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:353
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:359
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:365
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:384
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:385
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:823
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2529
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3576
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:386
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3155
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:387
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2948
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:389
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:391
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:393
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:394
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:395
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:396
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:516
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:517
+msgid "Update Required"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:930
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:930
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:933
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:933
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:1117
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2944
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:1978
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2269
+msgid "Required"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2272
+msgid "Recommended"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2288
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2291
+msgid "External Source"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2294
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2311
+msgid "Not Installed"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2315
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2317
+msgid "Active"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2323
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2326
+msgid "Requires Update"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2329
+msgid "Update recommended"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2338
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2384
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2388
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2478
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2486
+msgid "Installed version:"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2494
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2506
+msgid "Available version:"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2529
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2543
+msgid "Plugin"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2544
+msgid "Source"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2545
+msgid "Type"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2549
+#: inc/admin/zoom-about-page/class-zoom-about-page.php:229
+#: inc/admin/zoom-about-page/class-zoom-about-page.php:825
+msgid "Version"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2550
+msgid "Status"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2599
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2604
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2610
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2680
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2713
+#: inc/admin/zoom-about-page/about-config.php:117
+#: inc/admin/zoom-about-page/about-config.php:150
+#: inc/customizer/info/info-loader.php:97
+msgid "Install"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2719
+msgid "Update"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2722
+#: inc/admin/zoom-about-page/about-config.php:118
+#: inc/admin/zoom-about-page/about-config.php:151
+msgid "Activate"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2753
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2755
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2796
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2798
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2904
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:2930
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3154
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3494
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3497
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3499
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3503
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3505
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3505
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3513
+msgid "Show Details"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3505
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3513
+msgid "Hide Details"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3506
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3508
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3511
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3513
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3514
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/admin/tgm-plugin/class-tgm-plugin-activation.php:3516
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/admin/tgm-plugin/tgm-hook.php:49
+msgid "Contact Form"
+msgstr ""
+
+#: inc/admin/tgm-plugin/tgm-hook.php:61
+msgid "Instagram Feed"
+msgstr ""
+
+#: inc/admin/tgm-plugin/tgm-hook.php:67
+msgid "Icons"
+msgstr ""
+
+#: inc/admin/tgm-plugin/tgm-hook.php:73
+msgid "Popup Builder"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:16
+#: inc/admin/zoom-about-page/about-config.php:18
+msgid "About Zoom Lite"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:20
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:22
+msgid ""
+"Zoom Lite is a free WordPress theme. It's perfect for blogs, personal, "
+"photography sites or freelancer. Zoom Lite is 100% responsive, clean, "
+"modern, flat and minimal. Zoom Lite is ecommerce (WooCommerce) Compatible, "
+"WPML, RTL and also SEO Friendly."
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:30
+msgid "Getting Started"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:31
+#: inc/admin/zoom-about-page/about-config.php:82
+#: inc/admin/zoom-about-page/about-config.php:85
+msgid "Recommended Actions"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:32
+msgid "Useful Plugins"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:33
+msgid "Support"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:42
+msgid ""
+"Want to have a beautiful website? Want to create a website like a "
+"professional? Want an easy way to build and customize your WordPress site?"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:51
+#: inc/admin/zoom-about-page/about-config.php:54
+msgid "Contact Support"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:53
+msgid ""
+"Finding yourself tied to the tracks with unresolved issues and unanswered "
+"questions? It sounds like you need a Heroic Support. Just contact us now! We "
+"want to make sure you have the best experience using Zoom Lite."
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:60
+msgid "FAQ's"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:62
+msgid ""
+"This FAQ ( Frequently Asked Questions ) provides answers to basic questions "
+"about Zoom Theme, find answers to your most frequently asked questions about "
+"how to use this theme. Click button below for more information."
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:63
+msgid "Browse FAQ's"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:69
+msgid "Development Log"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:71
+msgid ""
+"Want to get the gist on the latest theme changes? Just consult our changelog "
+"below to get a taste of the recent fixes and features implemented. We "
+"recommend you to use the latest version of the theme."
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:72
+msgid "View Changes"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:84
+msgid ""
+"We have compiled a list of steps for you, to take make sure the experience "
+"you will have using one of our products is very easy to follow."
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:92
+msgid "Rate this Theme"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:94
+msgid ""
+"We really appreciate if you kindly give some feedback for this theme, your "
+"review can makes us more excited to make this theme more better"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:95
+msgid "Add Your Review"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:102
+msgid "Customize Your Theme"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:104
+msgid ""
+"Using the WordPress Customizer you can easily customize every aspect of the "
+"theme. We also provide tons of options that you can use!"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:105
+msgid "Go to Customizer"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:115
+msgid "Already activated"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:116
+msgid "Version: "
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:119
+#: inc/admin/zoom-about-page/about-config.php:152
+msgid "Deactivate"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:153
+msgid "Udate Now"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:157
+msgid ""
+"The Best WordPress page builder plugin and the most powerful time saver for "
+"WordPress ever. Easily to build any layout design quickly – It works like "
+"magic with WP Composer!"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:159
+msgid "wp-composer"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:166
+msgid ""
+"Easy Media Gallery is a wordPress plugin designed to display various media "
+"support including grid gallery, galleries, photo album, multiple photo "
+"albums, portfolio, photo gallery, image slider or image gallery."
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:168
+msgid "easy-media-gallery"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:174
+msgid ""
+"Makes your contact page more engaging by creating a good-looking contact "
+"form on your website. The interaction with your visitors was easier."
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:176
+msgid "contact-form-lite"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:182
+msgid ""
+"There is a new version of Zoom Lite. Please update to get the latest "
+"features and other important updates of this theme"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:194
+msgid "WP Composer"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:196
+#, php-format
+msgid ""
+"Congratulations! Now this theme compatible with WP Composer plugin. You want "
+"to start making beautiful layout? Learn more here : %s"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:197
+msgid "Learn more about WP Composer"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:203
+msgid "Visual Composer"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:205
+#, php-format
+msgid ""
+"Congratulations! Now this theme compatible with Visual Composer plugin. You "
+"want to start making onepage layout? Learn more here : %s"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:206
+#: inc/admin/zoom-about-page/about-config.php:215
+#: inc/admin/zoom-about-page/about-config.php:242
+msgid "How to create Custom Front Page"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:212
+msgid "Page Builder: KingComposer"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:214
+#, php-format
+msgid ""
+"Congratulations! Now this theme compatible with KingComposer plugin. You "
+"want to start making onepage layout? Learn more here : %s"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:221
+#: inc/customizer/mods/zoom-mods-revslider.php:10
+#: inc/customizer/options/header/header-settings.php:192
+msgid "Revolution Slider"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:223
+#, php-format
+msgid ""
+"Congratulations! Now this theme compatible with Revolution Slider plugin. To "
+"get started just learn more here : %s"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:224
+msgid "How to add Revolutin Slider to header"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:230
+msgid "JetPack ( Infinite Scroll )"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:232
+#, php-format
+msgid ""
+"It seems your JetPack Infinite Scroll module already active. You can try to "
+"check another options this theme provided from here : %s"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:233
+msgid "Go to Infinite Scroll Settings Page"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:239
+msgid "SiteOrigin Page Builder"
+msgstr ""
+
+#: inc/admin/zoom-about-page/about-config.php:241
+#, php-format
+msgid ""
+"Congratulations! Now this theme compatible with SiteOrigin Page Builder "
+"plugin. To get started just learn more here : %s"
+msgstr ""
+
+#: inc/admin/zoom-about-page/class-zoom-about-page.php:229
+msgid "none"
+msgstr ""
+
+#: inc/admin/zoom-about-page/class-zoom-about-page.php:466
+msgid "GREAT! All Actions Are Done!"
+msgstr ""
+
+#: inc/admin/zoom-about-page/class-zoom-about-page.php:494
+msgid "Your Active Plugins Currently Supported"
+msgstr ""
+
+#: inc/admin/zoom-about-page/class-zoom-about-page.php:633
+msgid "Retrieving data from server, please wait..."
+msgstr ""
+
+#: inc/admin/zoom-about-page/class-zoom-about-page.php:704
+msgid "Update History"
+msgstr ""
+
+#: inc/admin/zoom-about-page/class-zoom-about-page.php:724
+msgid ""
+"<strong>WP Composer page builder plugin</strong> come in handy because this "
+"plugin has a lot of features that you needs. This plugin will allow you to "
+"create beautiful website just in minutes without writing any code. Just "
+"watch the following video and you will see it work like a magic!"
+msgstr ""
+
+#: inc/admin/zoom-about-page/class-zoom-about-page.php:728
+msgid "Learn more here"
+msgstr ""
+
+#: inc/admin/zoom-about-page/class-zoom-about-page.php:729
+#: inc/theme-comments.php:66
+msgid "Website"
+msgstr ""
+
+#: inc/admin/zoom-about-page/class-zoom-about-page.php:730
+msgid "Demo"
+msgstr ""
+
+#: inc/admin/zoom-about-page/class-zoom-about-page.php:751
+msgid "No valid changelog was found"
+msgstr ""
+
+#: inc/admin/zoom-about-page/class-zoom-about-page.php:758
+msgid "The changelog in readme.txt is not readable"
+msgstr ""
+
+#: inc/admin/zoom-about-page/class-zoom-about-page.php:797
+msgid "Features"
+msgstr ""
+
+#: inc/admin/zoom-about-page/class-zoom-about-page.php:800
+msgid "Removed"
+msgstr ""
+
+#: inc/admin/zoom-about-page/class-zoom-about-page.php:836
+msgid "Error: Could not read data"
+msgstr ""
+
+#: inc/customizer/controls/image-slider-control/class/class-control.php:49
+msgid "Select Images"
+msgstr ""
+
+#: inc/customizer/controls/image-slider-control/class/class-control.php:50
+msgid "Modify Slider Images"
+msgstr ""
+
+#: inc/customizer/controls/image-slider-control/class/class-control.php:51
+#: inc/customizer/customizer-functions.php:220
+#: inc/customizer/options/styles/style-button.php:38
+#: inc/customizer/options/styles/style-button.php:88
+#: inc/customizer/options/styles/style-color-scheme.php:31
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/controls/image-slider-control/class/class-control.php:52
+msgid "Remove"
+msgstr ""
+
+#: inc/customizer/controls/image-slider-control/class/class-control.php:53
+msgid "No images selected"
+msgstr ""
+
+#: inc/customizer/controls/image-slider-control/class/class-control.php:54
+msgid "Select Slider Images"
+msgstr ""
+
+#: inc/customizer/controls/image-slider-control/class/class-control.php:55
+msgid "Choose Images"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:12
+msgid "Site Title, Tagline &amp; Site Icon"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:14
+msgid "Menu Location &amp; Position"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:22
+msgid "Main Logo (Header Logo)"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:23
+msgid ""
+"By default this logo will be displayed in the header. We recommend you to "
+"use image with minimal 200px of width."
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:27
+msgid "GENERAL"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:27
+msgid "Site Background"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:36
+msgid "Header Image"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:55
+msgid "Quick Notes!"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:56
+msgid "Move your cursor to any elements and click icon like this"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:57
+msgid "to customizing"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:58
+msgid "Click icon like this"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:59
+msgid "in the bottom left to see your site in actual wide"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:76
+msgid "Information"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:77
+msgid "Click this icon"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:78
+msgid "below to see your site in actual view"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:99
+msgid "EDIT"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:115
+msgid "Change Label"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:121
+msgid "Hide Home Button"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:130
+msgid "Menu Settings"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:136
+msgid "Menu Styles"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:145
+msgid "Button Position"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:148
+#: inc/customizer/options/menu/menu-options.php:60
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:154
+#: inc/customizer/options/menu/menu-options.php:61
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:160
+#: inc/customizer/options/menu/menu-options.php:62
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:169
+msgid "Button Color"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:172
+#: inc/customizer/options/styles/style-button.php:39
+#: inc/customizer/options/styles/style-button.php:89
+msgid "Blue"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:178
+#: inc/customizer/options/styles/style-button.php:40
+#: inc/customizer/options/styles/style-button.php:90
+msgid "Green"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:184
+#: inc/customizer/options/styles/style-button.php:41
+#: inc/customizer/options/styles/style-button.php:91
+msgid "Grey"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:190
+#: inc/customizer/options/styles/style-button.php:42
+#: inc/customizer/options/styles/style-button.php:92
+msgid "Orange"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:196
+#: inc/customizer/options/styles/style-button.php:43
+#: inc/customizer/options/styles/style-button.php:93
+msgid "Pink"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:202
+#: inc/customizer/options/styles/style-button.php:44
+#: inc/customizer/options/styles/style-button.php:94
+msgid "Purple"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:208
+#: inc/customizer/options/styles/style-button.php:45
+#: inc/customizer/options/styles/style-button.php:95
+msgid "Red"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:214
+#: inc/customizer/options/styles/style-button.php:46
+#: inc/customizer/options/styles/style-button.php:96
+msgid "Turquoise"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:228
+msgid "Other Options"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:236
+msgid "Hide Search Box"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:246
+#: inc/customizer/customizer-functions.php:300
+#: inc/customizer/options/post/post-images.php:62
+#: inc/customizer/options/post/post-images.php:99
+msgid "Image Size"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:249
+#: inc/customizer/customizer-functions.php:303
+#: inc/customizer/options/post/post-images.php:67
+#: inc/customizer/options/post/post-images.php:104
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:255
+#: inc/customizer/customizer-functions.php:309
+#: inc/customizer/options/post/post-images.php:68
+#: inc/customizer/options/post/post-images.php:105
+msgid "Medium"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:261
+#: inc/customizer/customizer-functions.php:315
+#: inc/customizer/options/post/post-images.php:69
+#: inc/customizer/options/post/post-images.php:106
+msgid "Medium Large"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:267
+#: inc/customizer/customizer-functions.php:321
+#: inc/customizer/options/post/post-images.php:70
+#: inc/customizer/options/post/post-images.php:107
+msgid "Large"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:273
+#: inc/customizer/customizer-functions.php:327
+#: inc/customizer/options/post/post-images.php:71
+#: inc/customizer/options/post/post-images.php:108
+msgid "Full"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:281
+#: inc/customizer/customizer-functions.php:335
+msgid "Disable Featured Images"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:290
+msgid "Hide Image Placeholder"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:345
+msgid "Show Related Articles by"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:349
+msgid "by Category"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:355
+msgid "by Tags"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:363
+msgid "Hide Related Posts"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:372
+msgid "Author Box Styles"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:378
+msgid "Hide Author Box"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:387
+msgid "Change Text"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:393
+msgid "Bottom Bar Styles"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:399
+msgid "Hide Bottom Bar"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:408
+msgid "Top Bar Styles"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:414
+msgid "Hide Top Bar"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:423
+msgid "Hide Post Navigation"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:432
+msgid "Hide Post Date"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:439
+msgid "Hide Categories"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:446
+msgid "Hide Tags"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:453
+msgid "Hide Author"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:460
+msgid "Hide Comments"
+msgstr ""
+
+#: inc/customizer/customizer-functions.php:469
+msgid "Hide Breadcrumb"
+msgstr ""
+
+#: inc/customizer/customizer-panels.php:16
+msgid "Site Layout"
+msgstr ""
+
+#: inc/customizer/customizer-panels.php:28
+msgid "Site Styles"
+msgstr ""
+
+#: inc/customizer/customizer-panels.php:41
+msgid "Site Branding"
+msgstr ""
+
+#: inc/customizer/customizer-panels.php:54
+msgid "Posts Settings"
+msgstr ""
+
+#: inc/customizer/customizer-panels.php:66
+msgid "Miscellaneous"
+msgstr ""
+
+#: inc/customizer/info/info-loader.php:79
+msgid "Love this Theme?"
+msgstr ""
+
+#: inc/customizer/info/info-loader.php:80
+msgid "Write a Review"
+msgstr ""
+
+#: inc/customizer/info/info-loader.php:96
+msgid "ENABLE PAGE BUILDER ?"
+msgstr ""
+
+#: inc/customizer/info/info-loader.php:120
+msgid "New version available"
+msgstr ""
+
+#: inc/customizer/info/info-loader.php:121
+msgid "Update Now"
+msgstr ""
+
+#: inc/customizer/mods/zoom-mods-revslider.php:29
+msgid "--select--"
+msgstr ""
+
+#: inc/customizer/options/branding/bottombar/bottom-bar.php:13
+msgid "Bottom Bar"
+msgstr ""
+
+#: inc/customizer/options/branding/bottombar/bottom-bar.php:15
+msgid "You can set your Bottom Bar with the following fields"
+msgstr ""
+
+#: inc/customizer/options/branding/bottombar/bottom-bar.php:30
+msgid "Enable Bottom Bar"
+msgstr ""
+
+#: inc/customizer/options/branding/bottombar/bottom-bar.php:31
+msgid "This option used to enable / disable the Bottom Bar"
+msgstr ""
+
+#: inc/customizer/options/branding/bottombar/bottom-bar.php:45
+msgid "Copyright Information"
+msgstr ""
+
+#: inc/customizer/options/branding/bottombar/bottom-bar.php:47
+msgid ""
+"You can set Site Copyright in the bottom bar area with the following option. "
+"You also can change with another text to fit your needs"
+msgstr ""
+
+#: inc/customizer/options/branding/branding-logo.php:16
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/options/branding/branding-logo.php:18
+msgid "Upload a logo for available spot below."
+msgstr ""
+
+#: inc/customizer/options/branding/branding-logo.php:33
+msgid "Show Main Logo in Menu"
+msgstr ""
+
+#: inc/customizer/options/branding/branding-logo.php:34
+msgid "This option will show your main logo in navigation."
+msgstr ""
+
+#: inc/customizer/options/branding/branding-logo.php:51
+msgid "Show Main Logo in Mobile Menu"
+msgstr ""
+
+#: inc/customizer/options/branding/branding-logo.php:52
+msgid "This option will show your main logo in mobile navigation."
+msgstr ""
+
+#: inc/customizer/options/branding/branding-logo.php:64
+msgid "Bottom Bar Logo"
+msgstr ""
+
+#: inc/customizer/options/branding/branding-logo.php:65
+msgid ""
+"This logo will be displayed in the bottom bar area. We recommend you to use "
+"image with minimal 100px of width"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:12
+msgid "Top Bar"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:14
+msgid "You can set your Top Bar with the following fields"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:29
+msgid "Enable Top Bar"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:30
+msgid "This option used to enable / disable the Top Bar"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:47
+msgid "Hide Top Bar on Mobile"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:48
+msgid "This option used to Show / Hide the Top Bar on mobile view"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:61
+msgid "Email Address"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:63
+#: inc/customizer/options/branding/topbar/top-bar.php:80
+msgid "You can use this field to display any text you want"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:67
+msgid "mail@your-domain.com"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:78
+msgid "Working hours"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:84
+msgid "Monday - Friday 8AM - 5PM"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:95
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:100
+msgid "https://www.facebook.com/you-url"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:111
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:116
+msgid "https://www.twitter.com/you-username"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:127
+msgid "Google +"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:132
+msgid "https://plus.google.com/your-id"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:143
+msgid "Youtube"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:148
+msgid "https://www.youtube.com/your-username"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:159
+msgid "Instagram"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:164
+msgid "https://www.instagram.com/your-username"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:175
+msgid "Pinterest"
+msgstr ""
+
+#: inc/customizer/options/branding/topbar/top-bar.php:180
+msgid "https://www.pinterest.com/your-username"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:13
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:24
+msgid "Header Type"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:29
+msgid "Image Slider"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:30
+msgid "Image Background"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:31
+msgid "Image Background, Title &amp; Tagline"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:32
+msgid "Image Background, Logo, Title &amp; Tagline"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:33
+msgid "Logo, Title &amp; Tagline"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:34
+msgid "Title &amp; Tagline"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:35
+msgid "None"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:50
+msgid "Slider Images"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:55
+msgid "Just drag and drop to ordering of images"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:74
+msgid "Enable Max Height for Slider"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:75
+msgid ""
+"The max-height option is used to set the maximum height of your image "
+"slider. You can turn it Off to keep your original image height, but we "
+"strongly recommend to set it On."
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:93
+msgid "Default Max-Height : 350px"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:117
+#: inc/customizer/options/header/header-settings.php:212
+msgid "Show the Slider only in Homepage"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:118
+#: inc/customizer/options/header/header-settings.php:213
+msgid "Enable this option if you want to show your slider only in homepage"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:132
+msgid "Slider Interval"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:133
+msgid ""
+"This option used to set how long each slide will show. Default : per 3 "
+"seconds"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:153
+msgid "Slider Effect"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:154
+msgid ""
+"Specify set the slider effect. The effect parameter can be any of the "
+"following"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:158
+msgid "Random"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:159
+msgid "sliceDown"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:160
+msgid "sliceDownLeft"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:161
+msgid "sliceUp"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:162
+msgid "sliceUpLeft"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:163
+msgid "sliceUpDown"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:164
+msgid "sliceUpDownLeft"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:165
+msgid "Fold"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:166
+msgid "Fade"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:167
+msgid "slideInRight"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:168
+msgid "slideInLeft"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:169
+msgid "boxRandom"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:170
+msgid "boxRain"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:171
+msgid "boxRainReverse"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:172
+msgid "boxRainGrow"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:173
+msgid "boxRainGrowReverse"
+msgstr ""
+
+#: inc/customizer/options/header/header-settings.php:193
+msgid "Choose available Slider"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-footer.php:12
+msgid "Footer Layout"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-footer.php:14
+msgid "You can use the following options to manage widget in footer area"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-footer.php:32
+msgid "Show/Hide Widget on footer area"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-footer.php:35
+msgid "Show Left Widget"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-footer.php:38
+msgid "Show Center Widget"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-footer.php:41
+msgid "Show Right Widget"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:12
+msgid "Blog &amp; Page"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:25
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:26
+msgid "Choose layout for your blog page."
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:31
+msgid "List"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:35
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:54
+msgid "Columns"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:55
+msgid "This option only if you choose GRID post layout. Default: 2"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:73
+msgid "Use shadow effect on each column"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:88
+msgid "Blog and Post Layout"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:89
+msgid "Choose a layout for the blog or posts."
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:94
+#: inc/customizer/options/layouts/layout-post-page.php:123
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:98
+#: inc/customizer/options/layouts/layout-post-page.php:127
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:102
+#: inc/customizer/options/layouts/layout-post-page.php:131
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:117
+msgid "Page Layout"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:118
+msgid "Choose a layout for the page posts."
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:146
+msgid "Content Area Padding"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-post-page.php:147
+msgid "Set site content area padding. Default : 5%"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-sidebar.php:12
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-sidebar.php:25
+msgid "Sidebar Width"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-sidebar.php:26
+msgid "Set the width of Sidebar area. Default : 30%"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-site.php:12
+#: inc/customizer/options/layouts/layout-site.php:24
+msgid "Main Layout"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-site.php:25
+msgid ""
+"Choose a layout for your site. Please click Hide Controls button below to "
+"see how the layout actually looks."
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-site.php:30
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-site.php:34
+msgid "Wide"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-site.php:48
+msgid "Site Maximum Width"
+msgstr ""
+
+#: inc/customizer/options/layouts/layout-site.php:49
+msgid ""
+"Set your site Max Width. This option only work when you choose Boxed layout "
+"type. Default : 1200px"
+msgstr ""
+
+#: inc/customizer/options/menu/menu-options.php:33
+msgid "Position"
+msgstr ""
+
+#: inc/customizer/options/menu/menu-options.php:37
+msgid "Before Header"
+msgstr ""
+
+#: inc/customizer/options/menu/menu-options.php:38
+msgid "After Header"
+msgstr ""
+
+#: inc/customizer/options/menu/menu-options.php:39
+msgid "No Menu"
+msgstr ""
+
+#: inc/customizer/options/menu/menu-options.php:56
+msgid "Menu Alignment"
+msgstr ""
+
+#: inc/customizer/options/menu/menu-options.php:75
+msgid "Floating Menu on Scroll"
+msgstr ""
+
+#: inc/customizer/options/menu/menu-options.php:76
+msgid ""
+"This option will stick the Main menu to the top of the window on scroll so "
+"your visitor will easier to navigate your site."
+msgstr ""
+
+#: inc/customizer/options/menu/menu-options.php:91
+msgid "Search Form on Menu"
+msgstr ""
+
+#: inc/customizer/options/menu/menu-options.php:92
+msgid "This option will show the search form on your main menu."
+msgstr ""
+
+#: inc/customizer/options/menu/menu-options.php:107
+msgid "Add Home Button"
+msgstr ""
+
+#: inc/customizer/options/menu/menu-options.php:108
+msgid "This option will auto add Home button with icon in your main menu."
+msgstr ""
+
+#: inc/customizer/options/menu/menu-options.php:123
+msgid "Home Button Label"
+msgstr ""
+
+#: inc/customizer/options/menu/menu-options.php:124
+msgid "You can change the default Home button label here"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-admin.php:14
+msgid "Admin Settings"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-admin.php:33
+msgid "Show the About Zoom in Appearance Menu"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-admin.php:34
+msgid ""
+"This page is intended to provide important informations about the Zoom "
+"theme : changelog, release note, documentation link."
+msgstr ""
+
+#: inc/customizer/options/misc/misc-admin.php:52
+msgid "Show Optimize Button in Admin Bar"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-admin.php:53
+msgid "This button links to the About Zoom page."
+msgstr ""
+
+#: inc/customizer/options/misc/misc-customjs.php:13
+msgid "Additional JS"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-customjs.php:14
+msgid ""
+"Make sure your code inside <script> and </script>. For example: "
+"<script>alert(\"aaa\");</script>"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-effects.php:14
+msgid "Site Effects"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-effects.php:32
+msgid "Enable Preloading Screen"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-effects.php:33
+msgid ""
+"This option will displays a loading animation until the browser fetched the "
+"whole web content"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-effects.php:47
+msgid "Preload Background Color"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-effects.php:64
+msgid "Scroll to Top"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-effects.php:65
+msgid ""
+"This option will help your visitor to go back to the top of the page easily"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-effects.php:79
+msgid "Scroll to Top Speed"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-effects.php:80
+msgid "Set scroll speed when back to top. Default: 1000ms (millisecond)"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-effects.php:112
+msgid "Infinite Scroll Posts per Page"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-effects.php:113
+msgid "Set how many posts are loaded each time Infinite Scroll acts"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-effects.php:131
+msgid "Infinite Scroll Posts Order"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-effects.php:132
+msgid "You can set to ascending or descending order"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-effects.php:152
+msgid "Button Load More text"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-effects.php:153
+msgid "Use this to change default Load More text"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-performances-seo.php:14
+msgid "Site Performances &amp; SEO"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-performances-seo.php:32
+msgid "Use a Minified Stylesheet"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-performances-seo.php:33
+msgid ""
+"Disable this option is not recommended. Minifying css stylesheets improves "
+"performance for your website overall by decreasing the load time."
+msgstr ""
+
+#: inc/customizer/options/misc/misc-performances-seo.php:50
+msgid "Use Image LazyLoad"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-performances-seo.php:51
+msgid ""
+"Check this option to boost your site speed performances by reducing the "
+"weight of long pages that include many images."
+msgstr ""
+
+#: inc/customizer/options/misc/misc-performances-seo.php:68
+msgid "Use Structured Data Markup"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-performances-seo.php:69
+msgid ""
+"Structured data markup is a standard way to annotate your content so "
+"machines can understand it. Implementing it will help your website rank "
+"higher in search engines."
+msgstr ""
+
+#: inc/customizer/options/misc/misc-text.php:13
+msgid "Custom Text / Label"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-text.php:14
+msgid ""
+"Use the following options to change the default navigation text on your site"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-text.php:30
+msgid "Next Post"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-text.php:45
+msgid "Previous Post"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-text.php:60
+msgid "Next Navigation"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-text.php:75
+msgid "Previous Navigation"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-text.php:89
+msgid "Pagination"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-text.php:104
+msgid "Related Post Note"
+msgstr ""
+
+#: inc/customizer/options/misc/misc-text.php:118
+msgid "Comment Form Note"
+msgstr ""
+
+#: inc/customizer/options/post/post-comments.php:14
+msgid "Post Comments"
+msgstr ""
+
+#: inc/customizer/options/post/post-comments.php:16
+msgid "Change how this theme displays the comments"
+msgstr ""
+
+#: inc/customizer/options/post/post-comments.php:29
+msgid "Disable Comment Form"
+msgstr ""
+
+#: inc/customizer/options/post/post-comments.php:30
+msgid "Use this option to disable the comment form from all Posts and Pages"
+msgstr ""
+
+#: inc/customizer/options/post/post-comments.php:44
+msgid "Hide Comments are closed Note?"
+msgstr ""
+
+#: inc/customizer/options/post/post-comments.php:45
+msgid "You can show or hide the default note when the comments are closed."
+msgstr ""
+
+#: inc/customizer/options/post/post-comments.php:59
+msgid "Author Badge Color"
+msgstr ""
+
+#: inc/customizer/options/post/post-comments.php:60
+msgid "Use this option to change the badge color of comment author"
+msgstr ""
+
+#: inc/customizer/options/post/post-excerpts.php:14
+msgid "Post Excerpts"
+msgstr ""
+
+#: inc/customizer/options/post/post-excerpts.php:16
+msgid "Change how Zoom displays posts"
+msgstr ""
+
+#: inc/customizer/options/post/post-excerpts.php:26
+msgid "Post content"
+msgstr ""
+
+#: inc/customizer/options/post/post-excerpts.php:43
+msgid "Excerpts Text"
+msgstr ""
+
+#: inc/customizer/options/post/post-excerpts.php:44
+msgid "Sets the link text like Read More or Continue Reading..."
+msgstr ""
+
+#: inc/customizer/options/post/post-excerpts.php:57
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/options/post/post-excerpts.php:58
+msgid ""
+"The number of words for excerpts. When that number is reached the post will "
+"be interrupted by Excerpts Text above."
+msgstr ""
+
+#: inc/customizer/options/post/post-images.php:13
+msgid "Post Images"
+msgstr ""
+
+#: inc/customizer/options/post/post-images.php:15
+msgid "Define and set your post images style"
+msgstr ""
+
+#: inc/customizer/options/post/post-images.php:28
+msgid "Show Featured Image on blog List"
+msgstr ""
+
+#: inc/customizer/options/post/post-images.php:29
+msgid "You can show or hide post Featured Image in blog list"
+msgstr ""
+
+#: inc/customizer/options/post/post-images.php:47
+msgid "Show Image Placeholder"
+msgstr ""
+
+#: inc/customizer/options/post/post-images.php:48
+msgid ""
+"An image placeholder is a dummy image designed if there are no Featured "
+"Image in your Posts or Pages"
+msgstr ""
+
+#: inc/customizer/options/post/post-images.php:63
+#: inc/customizer/options/post/post-images.php:100
+msgid "Available size: thumbnail, medium, medium_large, large and full"
+msgstr ""
+
+#: inc/customizer/options/post/post-images.php:84
+msgid "Show Featured Image on Single Post / Page"
+msgstr ""
+
+#: inc/customizer/options/post/post-images.php:85
+msgid "You can show or hide post Featured Image in single post or page view"
+msgstr ""
+
+#: inc/customizer/options/post/post-images.php:121
+msgid "Image Border Radius"
+msgstr ""
+
+#: inc/customizer/options/post/post-images.php:122
+msgid "Set border radius for all featured Images in post / blog list"
+msgstr ""
+
+#: inc/customizer/options/post/post-images.php:131
+msgid ""
+"If you want to keep things perfectly round, use an image with the same width "
+"and height. Anything else will still be rounded, but you will end up with an "
+"elliptic shape which may or may not be desirable."
+msgstr ""
+
+#: inc/customizer/options/post/post-meta.php:13
+#: inc/customizer/options/post/post-related.php:13
+msgid "Post Information"
+msgstr ""
+
+#: inc/customizer/options/post/post-meta.php:15
+#: inc/customizer/options/post/post-related.php:15
+msgid "Define and set your post meta with the following options"
+msgstr ""
+
+#: inc/customizer/options/post/post-meta.php:34
+msgid "Post Meta Options"
+msgstr ""
+
+#: inc/customizer/options/post/post-meta.php:38
+msgid "Show Post Date"
+msgstr ""
+
+#: inc/customizer/options/post/post-meta.php:41
+msgid "Show Categories"
+msgstr ""
+
+#: inc/customizer/options/post/post-meta.php:44
+msgid "Show Tags"
+msgstr ""
+
+#: inc/customizer/options/post/post-meta.php:47
+msgid "Show Author"
+msgstr ""
+
+#: inc/customizer/options/post/post-meta.php:50
+msgid "Show Comments"
+msgstr ""
+
+#: inc/customizer/options/post/post-meta.php:53
+msgid "Show Breadcrumbs ( Small Navigation )"
+msgstr ""
+
+#: inc/customizer/options/post/post-meta.php:72
+msgid "Link to The Next Post"
+msgstr ""
+
+#: inc/customizer/options/post/post-meta.php:73
+msgid ""
+"Used on single post, enable this option will displays a link to the next "
+"post which exists in chronological order from the current post"
+msgstr ""
+
+#: inc/customizer/options/post/post-meta.php:90
+msgid "Author Box"
+msgstr ""
+
+#: inc/customizer/options/post/post-meta.php:91
+msgid "Use this option to show / hide the Author Box on every bottom of post"
+msgstr ""
+
+#: inc/customizer/options/post/post-related.php:31
+msgid "Show Related Articles"
+msgstr ""
+
+#: inc/customizer/options/post/post-related.php:32
+msgid "This option will display randomized related articles below the post"
+msgstr ""
+
+#: inc/customizer/options/post/post-related.php:36
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer/options/post/post-related.php:37
+msgid "Related by Category"
+msgstr ""
+
+#: inc/customizer/options/post/post-related.php:38
+msgid "Related by Tags"
+msgstr ""
+
+#: inc/customizer/options/post/post-sticky.php:13
+msgid "Post Sticky ( Featured Post )"
+msgstr ""
+
+#: inc/customizer/options/post/post-sticky.php:15
+msgid "Define and set your featured post with the following options"
+msgstr ""
+
+#: inc/customizer/options/post/post-sticky.php:28
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer/options/post/post-sticky.php:41
+msgid "Show Border"
+msgstr ""
+
+#: inc/customizer/options/post/post-sticky.php:42
+msgid "You can show or hide sticky box border. Default: Show"
+msgstr ""
+
+#: inc/customizer/options/post/post-sticky.php:55
+msgid "Border Type"
+msgstr ""
+
+#: inc/customizer/options/post/post-sticky.php:56
+msgid "Set the border type here. Default: Dashed"
+msgstr ""
+
+#: inc/customizer/options/post/post-sticky.php:73
+msgid "Border Width"
+msgstr ""
+
+#: inc/customizer/options/post/post-sticky.php:74
+msgid "Set the width of border here. Default: 2px"
+msgstr ""
+
+#: inc/customizer/options/post/post-sticky.php:93
+msgid "Border Color"
+msgstr ""
+
+#: inc/customizer/options/post/post-sticky.php:106
+msgid "Show Ribbon"
+msgstr ""
+
+#: inc/customizer/options/post/post-sticky.php:107
+msgid "You can show or hide sticky corner ribbon. Default: Show"
+msgstr ""
+
+#: inc/customizer/options/post/post-sticky.php:119
+msgid "Ribbon Label"
+msgstr ""
+
+#: inc/customizer/options/post/post-sticky.php:120
+msgid "The label of your sticky ribbon"
+msgstr ""
+
+#: inc/customizer/options/post/post-sticky.php:133
+msgid "Ribbon Color"
+msgstr ""
+
+#: inc/customizer/options/styles/style-button.php:14
+msgid "Buttons"
+msgstr ""
+
+#: inc/customizer/options/styles/style-button.php:33
+msgid "Read More Button Color"
+msgstr ""
+
+#: inc/customizer/options/styles/style-button.php:34
+msgid "Default color for Read More button is : Blue"
+msgstr ""
+
+#: inc/customizer/options/styles/style-button.php:59
+msgid "Read More Button Position"
+msgstr ""
+
+#: inc/customizer/options/styles/style-button.php:83
+msgid "Navigation Button Color"
+msgstr ""
+
+#: inc/customizer/options/styles/style-button.php:84
+msgid "Navigation Button is for Next / Prev Posts, images and comments"
+msgstr ""
+
+#: inc/customizer/options/styles/style-color-scheme.php:13
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer/options/styles/style-color-scheme.php:15
+msgid "Define and set your site your site color scheme"
+msgstr ""
+
+#: inc/customizer/options/styles/style-color-scheme.php:26
+msgid "Site Color Scheme"
+msgstr ""
+
+#: inc/customizer/options/styles/style-color-scheme.php:32
+msgid "Dark Blue"
+msgstr ""
+
+#: inc/customizer/options/styles/style-color-scheme.php:33
+msgid "Dark Red"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:13
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:15
+msgid "Define and set your site color elements"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:29
+msgid "Site Header Area"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:42
+msgid "Site Title"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:43
+#: inc/customizer/options/styles/style-colors.php:57
+msgid "This option to change text color of"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:56
+msgid "Site Description"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:73
+msgid "CONTENT"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:73
+msgid "Content Background"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:86
+msgid "Content Text"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:99
+msgid "Link and Highlight"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:112
+msgid "Entry Meta Text"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:125
+msgid "Accents"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:126
+msgid "Accents used for all borders &amp; lines on the site."
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:141
+msgid "NAVIGATION"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:141
+msgid "Navigation Text"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:157
+msgid "MENU"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:157
+msgid "Menu Background"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:169
+msgid "Menu Text"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:182
+msgid "Submenu Background"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:194
+msgid "Submenu Text"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:210
+msgid "SIDEBAR AREA"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:210
+msgid "Sidebar Background"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:223
+msgid "Sidebar Title"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:236
+msgid "Sidebar Text"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:248
+msgid "Sidebar Link and Highlight"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:261
+msgid "Show Sidebar Border"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:262
+msgid "You can show or hide sidebar border. Default: Show"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:276
+msgid "Sidebar Border Type"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:277
+msgid "Set the sidebar border type here. Default: Solid"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:295
+msgid "Sidebar Border Width"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:296
+msgid "Set the width of sidebar border here. Default: 5px"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:316
+msgid "Sidebar Border"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:332
+msgid "FOOTER AREA"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:332
+msgid "Footer Background"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:345
+msgid "Footer Title"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:358
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:371
+msgid "Footer Link and Highlight"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:387
+msgid "TOP BAR"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:387
+msgid "Top Bar Background"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:400
+msgid "Top Bar Text"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:413
+msgid "Top Bar Link and Highlight"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:429
+msgid "BOTTOM BAR"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:429
+msgid "Bottom Bar Background"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:442
+msgid "Bottom Bar Text"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:455
+msgid "Bottom Bar Link and Highlight"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:470
+msgid "AUTHOR BOX"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:470
+msgid "Author Box Background"
+msgstr ""
+
+#: inc/customizer/options/styles/style-colors.php:483
+msgid "Author Box Text"
+msgstr ""
+
+#: inc/helpers/helper-bottom-bar.php:22
+#, php-format
+msgid "Zoom Lite Theme Powered by %1$s - Theme by %2$s"
+msgstr ""
+
+#: inc/helpers/helper-header.php:94
+msgid "Please activate Revolution Slider plugin first."
+msgstr ""
+
+#: inc/helpers/helper-nav.php:75
+msgid "Skip to content"
+msgstr ""
+
+#: inc/helpers/helper-nav.php:99
+msgid "Please set your theme Primary Menu first"
+msgstr ""
+
+#: inc/helpers/helper-nav.php:99
+msgid "from here"
+msgstr ""
+
+#: inc/helpers/helper-nav.php:118 inc/helpers/helper-nav.php:119
+#: inc/helpers/helper-nav.php:120 searchform.php:10 searchform.php:11
+#: searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: inc/helpers/helper-post.php:57
+msgid "About"
+msgstr ""
+
+#: inc/theme-comments.php:33
+msgid "Author"
+msgstr ""
+
+#: inc/theme-comments.php:42
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/theme-comments.php:47
+msgid "Permalink"
+msgstr ""
+
+#: inc/theme-comments.php:64
+msgid "Name"
+msgstr ""
+
+#: inc/theme-comments.php:65
+msgid "Email"
+msgstr ""
+
+#: inc/theme-comments.php:68
+msgid "Comment"
+msgstr ""
+
+#: inc/theme-comments.php:69
+msgid "Your email will not be published. Name and Email fields are required"
+msgstr ""
+
+#: inc/theme-functions.php:282
+msgid "Footer"
+msgstr ""
+
+#: inc/theme-functions.php:284
+msgid ""
+"This content only visible in theme customize page. Simply add new widgets to "
+"get rid this text. Just hover your mouse on this text and click EDIT button. "
+"You also can easily manage to show &#47; hide this footer widget"
+msgstr ""
+
+#: inc/theme-functions.php:286
+msgid "from theme customizer option"
+msgstr ""
+
+#: inc/theme-functions.php:286
+msgid "FROM HERE"
+msgstr ""
+
+#: inc/theme-functions.php:489
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+
+#: inc/theme-functions.php:489
+msgid "Password here..."
+msgstr ""
+
+#: inc/theme-functions.php:489
+msgid "Submit"
+msgstr ""
+
+#: inc/theme-loop.php:33
+msgid "Post navigation"
+msgstr ""
+
+#: inc/theme-loop.php:64
+msgid "Posted on"
+msgstr ""
+
+#: inc/theme-loop.php:70
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/theme-loop.php:371
+#, php-format
+msgid "This entry was tagged %2$s."
+msgstr ""
+
+#: inc/theme-loop.php:379 inc/theme-loop.php:381
+#, php-format
+msgid "This entry was posted in %1$s."
+msgstr ""
+
+#: inc/theme-loop.php:379
+#, php-format
+msgid " Tagged %2$s."
+msgstr ""
+
+#: inc/theme-loop.php:409
+msgid "Featured"
+msgstr ""
+
+#: inc/theme-setup.php:127
+msgid "Default Header Image"
+msgstr ""
+
+#: inc/theme-setup.php:162
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/theme-setup.php:182
+msgid "Primary Sidebar"
+msgstr ""
+
+#: inc/theme-setup.php:190
+msgid "Zoom Footer ( Left )"
+msgstr ""
+
+#: inc/theme-setup.php:198
+msgid "Zoom Footer ( Center )"
+msgstr ""
+
+#: inc/theme-setup.php:206
+msgid "Zoom Footer ( Right )"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:432
+#: option-tree/ot-loader.php:786
+msgid "Send to OptionTree"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:433
+#: option-tree/includes/ot-functions-option-types.php:327
+msgid "Remove Media"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:434
+msgid "Are you sure you want to reset back to the defaults?"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:435
+msgid "You can't remove this! But you can edit the values."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:436
+msgid "Are you sure you want to remove this?"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:437
+msgid "Are you sure you want to activate this layout?"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:438
+msgid "Sorry, you can't have settings three levels deep."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:439
+#: option-tree/includes/ot-functions-option-types.php:128
+msgid "Delete Gallery"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:440
+#: option-tree/includes/ot-functions-option-types.php:129
+msgid "Edit Gallery"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:441
+#: option-tree/includes/ot-functions-option-types.php:136
+msgid "Create Gallery"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:442
+msgid "Are you sure you want to delete this Gallery?"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:443
+msgid "Today"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:444
+msgid "Now"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:445
+msgid "Close"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:446
+msgid "Featured Image"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:447
+msgid "Image"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:515
+msgid "Option Tree"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:1725
+msgid "On/Off"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:1726
+msgid "Upload"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:3290
+#: option-tree/includes/ot-meta-box-api.php:231
+msgid "Title"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:46
+msgid "Sorry, this function does not exist"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:202
+msgid "On"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:224
+msgid "Off"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:311
+msgid "Add Media"
+msgstr ""
+
+#: option-tree/includes/ot-functions.php:388
+msgid "Theme Options"
+msgstr ""
+
+#: option-tree/includes/ot-functions.php:409
+msgid "Insert"
+msgstr ""
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar-left.php:19
+msgid ""
+"You currently have no widgets set in the left sidebar. To add widgets simply "
+"hover your mouse on this text and click EDIT button."
+msgstr ""
+
+#: sidebar-right.php:19
+msgid ""
+"You currently have no widgets set in the right sidebar. To add widgets "
+"simply hover your mouse on this text and click EDIT button."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Zoom Lite"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themes.ghozylab.com/zoom"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Zoom Lite is a free WordPress theme. It's perfect for blog, personal "
+"portfolio, web agency business, business portfolio, corporate business, one "
+"page, landing page, photography sites or freelancer. Zoom Lite is 100% "
+"responsive, clean, modern, flat and minimal. Zoom Lite is WooCommerce "
+"storefront ready, WPML, RTL and also SEO Friendly. This theme also "
+"translation-ready, supports image header, gallery, featured images, has "
+"three widget in footer areas and includes a sliding menu for mobile screens "
+"and includes a full-width template. Zoom Lite works perfectly with all page "
+"builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, "
+"etc. Built with SEO in mind, Zoom Lite comes with Schema.org code integrated "
+"so search engines will love your site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "GhozyLab"
+msgstr ""

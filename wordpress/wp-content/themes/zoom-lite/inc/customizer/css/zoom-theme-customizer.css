@@ -1,0 +1,670 @@
+/* CSS Document */
+
+/* Styling One Page Builder Section */
+
+#customize-controls #accordion-section-zoom_theme_onepage_section > .accordion-section-title {
+	background-color: #ECF7FF;
+}
+
+#customize-controls #accordion-section-zoom_theme_onepage_section > .accordion-section-title:after {
+	content: "\f100";
+	color: #21a6ff;
+}
+
+#customize-controls #accordion-section-zoom_theme_onepage_section:hover > .accordion-section-title:after {
+	color: #21a6ff;
+}
+
+.customize-section-description-container + #customize-control-misc_custom_js_control:last-child .CodeMirror {
+    height: calc(100vh - 185px);
+}
+
+.customize-section-description-container + #customize-control-misc_custom_js_control:last-child {
+    margin-left: -12px;
+    width: 299px;
+    width: calc(100% + 24px);
+    margin-bottom: -12px;
+}
+
+.rtl .customize-section-description-container + #customize-control-misc_custom_js_control:last-child {
+	margin-right: -12px;
+	margin-left: auto;
+}
+
+/* Styling Controls */
+#accordion-panel-zoom_theme_layout_panel .customize-control:before, #accordion-section-zoom_theme_header_section .customize-control:before, #accordion-panel-zoom_site_styles .customize-control:before, #accordion-panel-zoom_post_options .customize-control:before, #accordion-panel-zoom_misc_panel .customize-control:before, #accordion-panel-zoom_site_branding .customize-control:before, #accordion-section-zoom_theme_onepage_section .customize-control:before {
+	content: "";
+	position: relative;
+	border: 0;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #fafafa;
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.menu-group-title, #customize-control-effect_screen_preload_control .customize-control-title, #customize-control-effect_stt_control .customize-control-title, #customize-control-onepage_enable_control .customize-control-title, #customize-control-onepage_section_one_control .customize-control-title, #customize-control-onepage_section_two_control .customize-control-title, #customize-control-onepage_section_three_control .customize-control-title, #customize-control-misc_jpis_per_page_control .customize-control-title, #customize-control-misc_jpis_order_control .customize-control-title, #customize-control-misc_jpis_load_more_txt_control .customize-control-title {
+	margin-top: 7px;
+	color: #FFF;
+	font-style: italic;
+	margin-bottom: 5px;
+	position: relative;
+	float: left;
+	padding-left: 3%;
+	width: 100%;
+	padding-right: 3%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: -moz-linear-gradient(left, rgba(34,142,214,0.97) 25%, rgba(34,142,214,0.61) 53%, rgba(238,238,238,0) 100%);
+	background: -webkit-linear-gradient(left, rgba(34,142,214,0.97) 25%,rgba(34,142,214,0.61) 53%,rgba(238,238,238,0) 100%);
+	background: linear-gradient(to right, rgba(34,142,214,0.97) 25%,rgba(34,142,214,0.61) 53%,rgba(238,238,238,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7228ed6', endColorstr='#00eeeeee',GradientType=1 );
+}
+
+.menu-group-title-after {
+	display: block;
+}
+
+#customize-control-menu_floating label,
+#customize-control-menu_search label,
+#customize-control-menu_home_btn label,
+#customize-control-menu_home_btn_txt label,
+#customize-control-post_cols_shadow_apply label {
+	display: inline;
+}
+
+#customize-control-menu_floating label,
+#customize-control-menu_search label,
+#customize-control-menu_home_btn label {
+	font-weight: bold;
+}
+
+#customize-control-menu_home_btn_txt .customize-control-title {
+	font-weight: bold;
+}
+
+#customize-control-menu_floating label .customize-control-description,
+#customize-control-menu_search label .customize-control-description,
+#customize-control-menu_home_btn label .customize-control-description,
+#customize-control-menu_home_btn_txt label .customize-control-description {
+	margin-top: 5px;
+	font-weight: normal;
+}
+
+#accordion-section-zoom_theme_logo_section .customize-control-description {
+	margin-bottom: 15px;
+}
+
+#customize-control-bottom_logo_control {
+	padding-bottom: 21px;
+}
+
+#customize-control-post_blog_thumb_size_control, #customize-control-post_single_thumb_size_control {
+	border-bottom: 1px dashed #CCC;
+	padding-bottom: 35px;
+}
+
+#logo-change-note {
+	padding: 6px;
+	display: block;
+	border: dashed 1px #cecece;
+	margin-top: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #fef3e3;
+}
+
+#logo-change-note p {
+	margin: 0;
+}
+
+#logo-change-note p a {
+	text-decoration: underline;
+}
+
+#logo-change-note p a:hover {
+	text-decoration: none;
+}
+
+#customize-controls .customize-info .customize-help-toggle:focus::before {
+	box-shadow: none;
+}
+
+.entry-meta span.edit-link {
+	display: none;
+}
+
+.z-footer-link {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#customize-control-header_slider_p_time_control, #customize-control-bottom_logo_control {
+	border-top: 1px dashed #b2b2b2;
+	padding-top: 5px;
+}
+
+form.customize-unpreviewable button.previewer-edit {
+	cursor: pointer !important;
+}
+
+/* Panel Icon */
+#accordion-panel-zoom_theme_layout_panel .accordion-section-title::before,
+#accordion-panel-zoom_site_styles .accordion-section-title::before,
+#accordion-panel-zoom_site_branding .accordion-section-title::before,
+#accordion-panel-zoom_post_options .accordion-section-title::before,
+#accordion-panel-nav_menus .accordion-section-title::before,
+#accordion-panel-widgets .accordion-section-title::before,
+#accordion-panel-zoom_misc_panel .accordion-section-title::before {
+	font-family: dashicons;
+    font-size: 20px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+#accordion-panel-zoom_theme_layout_panel .accordion-section-title::before {
+    content: "\f164";
+}
+
+#accordion-panel-zoom_site_styles .accordion-section-title::before {
+    content: "\f100";
+}
+
+#accordion-panel-zoom_site_branding .accordion-section-title::before {
+    content: "\f102";
+}
+
+#accordion-panel-zoom_post_options .accordion-section-title::before {
+    content: "\f109";
+}
+
+#accordion-panel-nav_menus .accordion-section-title::before {
+    content: "\f333";
+}
+
+#accordion-panel-widgets .accordion-section-title::before {
+    content: "\f180";
+}
+
+#accordion-panel-zoom_misc_panel .accordion-section-title::before {
+    content: "\f533";
+}
+
+/* Theme Update Notification */
+.available-update-message .accordion-section-title::before {
+	font-family: dashicons;
+    font-size: 20px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.available-update-message {
+	padding: 10px 0 10px 0;
+}
+
+.available-update-message .accordion-section-title::before {
+    content: "\f463";
+	color: #fc8456;
+}
+
+/* WP Pointer */
+.wp-pointer {
+	z-index: 500001 !important;
+	left: 20px !important;	
+}
+
+.wp-pointer-content {
+	-webkit-box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.75);
+}
+
+.wp-pointer-bottom .wp-pointer-arrow {
+	left: 20px !important;
+}
+
+.wp-pointer-content .collapse-sidebar-arrow-sc,
+.zoom-customizer-help-list li .collapse-sidebar-arrow-sc {
+    width: 20px;
+    height: 20px;
+    margin: 0 3px 0 3px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    overflow: visible;
+	display:inline-block;
+	position:relative;
+}
+
+.wp-pointer-content .collapse-sidebar-arrow-sc::before,
+.zoom-customizer-help-list li .collapse-sidebar-arrow-sc::before {
+    display: block;
+    content: "\f148";
+    background: #fff;
+    font: 400 20px/1 dashicons;
+    speak: none;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	top: 6px;
+	position: absolute;
+}
+
+.rtl .wp-pointer-content .collapse-sidebar-arrow-sc::before,
+.rtl .zoom-customizer-help-list li .collapse-sidebar-arrow-sc::before {
+	-webkit-transform: rotate(180.001deg);
+	-ms-transform: rotate(180.001deg);
+	transform: rotate(180.001deg);
+}
+
+
+/* Custom Customizer Help */
+.customize-panel-description {
+	max-height: 140px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	position:relative;
+	padding-top:0 !important;
+}
+
+.zoom-customizer-help-list {
+	list-style-type:circle;
+	padding-bottom:3px;
+}
+
+.zoom-customizer-help-list li {
+	margin-left:10px;
+	margin-bottom: 10px;
+}
+
+.edit-help-icon {
+	display: inline-block;
+	width: 44px;
+	height: 23px;
+	position: relative;
+}
+
+.edit-help-icon::before {
+	content: "";
+	display: block;
+	background: transparent url("../images/edit.png") no-repeat scroll 50% 50%;
+	top: 6px;
+	position: absolute;
+	width: 44px;
+	height: 23px;
+}
+
+/* Control Selector Effect */
+.show-arrow {
+	font-size: 20px;
+	color: #9a9895;
+	position: absolute;
+	right: 20px;
+	margin-top: 4px;
+	-webkit-animation:linear infinite alternate;
+	-webkit-animation-name: showarrow;
+	-webkit-animation-duration: 0.4s;
+}
+
+/* RTL Mode */
+
+.rtl .wp-pointer {
+	right: 20px !important;	
+}
+
+.show-arrow-rtl {
+	font-size: 20px;
+	color: #9a9895;
+	position: absolute;
+	left: 20px;
+	margin-top: 4px;
+	-webkit-animation:linear infinite alternate;
+	-webkit-animation-name: showarrowrtl;
+	-webkit-animation-duration: 0.4s;
+}
+
+.show-arrow.sectiononly {
+	top: 130px;
+}
+
+@-webkit-keyframes showarrow {
+    0% { right: 20px;}
+    50%{ right : 30px;}
+    100%{ right: 20px;}
+}
+
+@-webkit-keyframes showarrowrtl {
+    0% { left: 20px;}
+    50%{ left : 30px;}
+    100%{ left: 20px;}
+}
+
+
+/* --- Edit Button ------------------------------------------------------------------------------------------*/
+
+/* Edit Button Container */
+
+.previewer-edit-cont, .previewer-edit-cont * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.previewer-edit-cont {
+	position: absolute;
+	white-space: nowrap;
+	display: block;
+	/* z-index: 1; /* Let's see if we found any issue with this in the future :p */
+}
+
+/* Green Edit Button */
+
+.previewer-edit {
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	border-radius: 3px;
+	background: #4ea33b;
+	padding: 4px 7px 4px 7px;
+	text-decoration: none;
+	border: none;
+	position: relative;
+	display: none;
+	cursor:pointer;
+	margin: 0;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 12px !important;
+	font-weight: normal !important;
+	font-style:normal !important;
+	line-height: 24px !important;
+}
+
+.previewer-edit:hover {
+	background: #59b545;
+	text-decoration: none;
+}
+
+.previewer-edit span {
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.previewer-edit span + span {
+	display: inline-block;
+}
+
+/* Edit Button Submenu */
+
+.previewer-edit-submenu-cont {
+	color: #ffffff;
+	font-size: 12px !important;
+	background: #212121;
+	text-align: left;
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	border-radius: 3px;
+	position: absolute;
+	display:none;
+	-webkit-box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.75);
+	z-index: 5;
+}
+
+.previewer-edit-submenu {
+	display:inline-block;
+	position: relative;
+	margin: 0;
+	z-index: 6;
+	width: 100%;
+}
+
+.previewer-edit-submenu .previewer-each-action:not(.child-has-child) {
+	display: block !important;
+}
+
+.previewer-edit-submenu .previewer-each-action,
+.child-has-child {
+	position: relative;
+	padding: 5px 10px 5px 10px;
+	border-top: 1px solid #3d3d3d;
+	cursor: pointer;
+	width: 100%;
+}
+
+.previewer-edit-submenu .previewer-each-action:hover {
+	background: #393b39;
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.previewer-edit .dashicons-edit {
+	vertical-align: middle;
+	margin-right:3px;
+	display: inline-block;
+}
+
+.rtl .previewer-edit .dashicons-edit {
+	margin-right:left;
+}
+
+.previewer-edit .dashicons-edit span {
+	display: inline-block;
+}
+
+/* Sub Submenu */
+
+.child-has-child {}
+
+.child-only.previewer-edit-submenu-cont {
+	top: -1px;
+	position: absolute;
+	margin: 0 1px 0 1px;
+	left: 100%;
+	right: auto;
+}
+
+.rtl .child-only.previewer-edit-submenu-cont {
+	left: auto;
+	right: 100%;
+}
+
+.previewer-each-action.child-has-child .mn-title {
+	display: inline-block;
+	width: -webkit-calc(100% - 17px);
+	width: -moz-calc(100% - 17px);
+	width: -o-calc(100% - 17px);
+	width: calc(100% - 17px);
+}
+
+.previewer-each-action.child-has-child .edit-submenu-icon.has-left-icon + .mn-title {
+	display: inline-block;
+	width: -webkit-calc(100% - 43px);
+	width: -moz-calc(100% - 43px);
+	width: -o-calc(100% - 43px);
+	width: calc(100% - 43px);
+}
+
+.previewer-each-action.child-has-child .submenu-arrow {
+	position: relative;
+	margin-top: 5px;
+	display:inline-block;
+}
+
+/* Submenu Icon */
+.edit-submenu-icon {
+	margin-top: 4px;
+	margin-right: 6px;
+	display: inline-block;
+}
+
+.rtl .edit-submenu-icon {
+	margin-right: 0;	
+	margin-left: 6px;	
+}
+
+/* Green Edit Button Position */
+
+/* Top Left */
+.tl.previewer-edit-cont {
+	top: 0;
+	left: 0;
+	text-align:left;
+}
+
+.rtl .tl.previewer-edit-cont {
+	left: auto;
+	right: 0;
+	text-align:right;
+}
+
+/* Top Right */
+.tr.previewer-edit-cont {
+	top: 0;
+	right: 0;
+	text-align: right;
+}
+
+.rtl .tr.previewer-edit-cont {
+	left: 0;
+	right:auto;
+	text-align:left;
+}
+
+/* Top Center Horizontal */
+.tch.previewer-edit-cont {
+	top:0;
+}
+
+.rtl .tch.previewer-edit-cont {}
+
+/* Bottom Left */
+.bl.previewer-edit-cont {
+	bottom: 0;
+	left: 0;
+}
+
+.rtl .bl.previewer-edit-cont {
+	bottom: 0;
+	left: auto;
+	right: 0;
+}
+
+/* Bottom Right */
+.br.previewer-edit-cont {
+	bottom: 0;
+	right: 0;
+}
+
+.rtl .br.previewer-edit-cont {
+	bottom: 0;
+	right: auto;
+	left: 0;
+}
+
+/* Bottom Center Horizontal */
+.bch.previewer-edit-cont {
+	bottom: 0;
+}
+
+.rtl .bch.previewer-edit-cont {}
+
+/* Center vertical & Horizontal */
+.cvh.previewer-edit-cont {}
+
+.rtl .cvh.previewer-edit-cont {}
+
+/* Center vertical in left position */
+.cvl.previewer-edit-cont {
+	left:0;
+}
+
+.rtl .cvl.previewer-edit-cont {
+	left:auto;
+	right:0;
+}
+
+/* Center vertical in Right position */
+.cvr.previewer-edit-cont {
+	right: 0;
+}
+
+.rtl .cvr.previewer-edit-cont {
+	right: auto;
+	left:0;
+}
+
+/* Background hover effect for Elements */
+.ready-edit {
+	position:relative;
+}
+
+.ready-edit:hover {
+	cursor: crosshair;
+}
+
+/* Overriding default backend & frontend style --------------------------------------- */
+.zoom-site {
+	overflow-x: hidden;
+}
+
+/* Top Bar */
+#top-bar .previewer-edit-submenu-cont {
+	z-index: 9999;
+}
+
+/* Custom markup */
+.ribbon-par .previewer-edit-cont {
+	z-index: 9999;
+}
+
+/* Bottom Bar SPAN */
+.bottom-bar-content span.edit-submenu-icon,
+.bottom-bar-content span.mn-title,
+.entry-meta span.edit-submenu-icon,
+.entry-meta span.mn-title {
+	display: inline-block;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	text-transform: none;
+	color: #ffffff;
+	font-weight: normal !important;
+	font-style:normal !important;
+	line-height: 24px !important;
+}
+
+.breadcrumb span.mn-title {
+	font-style:normal !important;
+}
+
+.bottom-bar-content span.edit-submenu-icon {
+	padding-top: 4px;
+}
+
+/* Fixed for ribbon overflow issue */
+.need-z-index {
+	z-index:9999;
+}
+
+/* Avoid parent overflow:hidden */
+.entry-header-cont{
+	position: relative;
+}
+
+.entry-header.ready-edit {
+	position: initial;
+}
+
+#content .post-navigation.ready-edit,
+#content .site-navigation.ready-edit {
+	overflow: inherit;
+}
+
+/* Update theme */
+.available-update-message .button-link {
+	text-decoration: none !important;
+}

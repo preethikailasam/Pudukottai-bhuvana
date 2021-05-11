@@ -1,0 +1,42 @@
+/* Hides the radio button */
+.customize-control-radio_image input[type="radio"] {
+	display:none;
+}
+
+/* Makes images look clickable */
+.customize-control-radio_image img {
+    border: 4px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Adds blue border around currently selected image */
+.customize-control-radio_image input:checked + img {
+    border-color: #00a0d2;
+}
+
+.layout-thumb-container {
+	display: block;
+	margin-top:20px;
+}
+
+.layout-thumb-item {
+	display:inline-block;
+	text-align:center;
+	max-width: 125px;
+}
+
+.layout-title {
+	font-size: 11px;
+	color: #807676;
+	font-style:italic;
+	display:block;
+	padding: 0px;
+	margin: 0 0 10px;
+	line-height: 0;
+}
+
+
+/* Additional */

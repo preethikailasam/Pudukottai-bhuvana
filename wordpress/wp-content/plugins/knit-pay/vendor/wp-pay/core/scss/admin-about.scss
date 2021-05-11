@@ -1,0 +1,15 @@
+@import 'admin/variables';
+
+// About badge
+.pronamic-pay-badge {
+	background-color: $wp-pay-orange;
+	background-image: url('../images/dist/wp-pay-white-512.pngquant-min.png');
+
+	color: mix($wp-pay-orange, $white, 20%);
+}
+
+.svg {
+	.pronamic-pay-badge {
+		background-image: url('../images/dist/wp-pay-white.svgo-min.svg');
+	}
+}

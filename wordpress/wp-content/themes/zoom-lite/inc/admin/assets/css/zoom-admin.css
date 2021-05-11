@@ -1,0 +1,75 @@
+/* ADMIN BAR
+--------------------------------------------------
+*/
+h1.need-help-title:before,
+#wp-admin-bar-tc-zoom-optimize .ab-item:before, li#wp-admin-bar-tc-zoom-optimize a:before {
+  font-family: 'dashicons';
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-style: normal;
+  line-height: 1.1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  content: "\f540";
+}
+
+#wp-admin-bar-tc-zoom-optimize .ab-item:before, li#wp-admin-bar-tc-zoom-optimize a:before {
+  padding-right: 0px;
+  top: 2px;
+  color: #FFF;
+}
+
+li#wp-admin-bar-tc-zoom-optimize a {
+  color: #FFF!important;
+  text-decoration: none;
+  background-color: #8935b4;
+  -webkit-transition: background .1s linear;
+  -moz-transition: background .1s linear;
+  -ms-transition: background .1s linear;
+  -o-transition: background .1s linear;
+  transition: background .1s linear;
+}
+
+li#wp-admin-bar-tc-zoom-optimize:hover .ab-item {
+  background: #9641c2 !important;
+}
+
+li#wp-admin-bar-tc-zoom-optimize:hover .ab-item:before {
+	color: #fff;
+}
+
+.ab-top-menu>li#wp-admin-bar-tc-zoom-optimize:hover>.ab-item {
+  color: #FFF;
+  background: #6B9C51;
+}
+
+h1.need-help-title:before {
+  padding-right: 17px;
+  top: 1px;
+  font-size: 1.2em;
+  color:#82b965;
+}
+
+#hueman-admin-panel .button-secondary.hueman-help {
+  line-height: 25px;
+  padding-top: 11px;
+  height: 51px;
+  font-size: 20px;
+  font-family: 'georgia';
+  width: 95%;
+  white-space: normal;
+}
+
+.about-wrap .feature-section .tc-follow img {
+  background: none;
+  max-width: none;
+  float: none;
+}
+
+.about-wrap #showcase .feature-section img {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}

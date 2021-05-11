@@ -1,0 +1,1645 @@
+{
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v1.11.0",
+            "version_normalized": "1.11.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "ae03311f45dfe194412081526be2e003960df74b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/ae03311f45dfe194412081526be2e003960df74b",
+                "reference": "ae03311f45dfe194412081526be2e003960df74b",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^4.2 || ^5",
+                "symfony/process": "^2.3"
+            },
+            "time": "2021-04-28T06:42:17+00:00",
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "MantisBT",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Starbug",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "mediawiki",
+                "miaoxing",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "processwire",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "sylius",
+                "symfony",
+                "tastyigniter",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "./installers"
+        },
+        {
+            "name": "justinrainbow/json-schema",
+            "version": "5.2.10",
+            "version_normalized": "5.2.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/justinrainbow/json-schema.git",
+                "reference": "2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b",
+                "reference": "2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.2.20||~2.15.1",
+                "json-schema/json-schema-test-suite": "1.2.0",
+                "phpunit/phpunit": "^4.8.35"
+            },
+            "time": "2020-05-27T16:41:55+00:00",
+            "bin": [
+                "bin/validate-json"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "JsonSchema\\": "src/JsonSchema/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Prieto Reis",
+                    "email": "bruno.p.reis@gmail.com"
+                },
+                {
+                    "name": "Justin Rainbow",
+                    "email": "justin.rainbow@gmail.com"
+                },
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch"
+                },
+                {
+                    "name": "Robert Schönthal",
+                    "email": "seroscho@googlemail.com"
+                }
+            ],
+            "description": "A library to validate a json schema.",
+            "homepage": "https://github.com/justinrainbow/json-schema",
+            "keywords": [
+                "json",
+                "schema"
+            ],
+            "install-path": "../justinrainbow/json-schema"
+        },
+        {
+            "name": "pronamic/wp-datetime",
+            "version": "1.2.1",
+            "version_normalized": "1.2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pronamic/wp-datetime.git",
+                "reference": "e55a883a8166fa6ae06d886e917f5c91abfcce39"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pronamic/wp-datetime/zipball/e55a883a8166fa6ae06d886e917f5c91abfcce39",
+                "reference": "e55a883a8166fa6ae06d886e917f5c91abfcce39",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.20"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                "koodimonni-language/de_de": "*",
+                "koodimonni-language/fr_fr": "*",
+                "koodimonni-language/ja": "*",
+                "koodimonni-language/nl_nl": "*",
+                "php-coveralls/php-coveralls": "^2.4",
+                "phpcompatibility/php-compatibility": "^9.3",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpmd/phpmd": "^2.9",
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "roots/wordpress": "^5.6",
+                "squizlabs/php_codesniffer": "^3.5",
+                "vlucas/phpdotenv": "^2.0",
+                "wp-coding-standards/wpcs": "^2.3",
+                "wp-phpunit/wp-phpunit": "^5.6"
+            },
+            "time": "2021-04-26T13:21:36+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\WordPress\\DateTime\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "WordPress DateTime library.",
+            "install-path": "../pronamic/wp-datetime"
+        },
+        {
+            "name": "pronamic/wp-gravityforms-nl",
+            "version": "3.0.1",
+            "version_normalized": "3.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pronamic/wp-gravityforms-nl.git",
+                "reference": "3b561651e2e0e68912d1d777a45928724cdecb6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pronamic/wp-gravityforms-nl/zipball/3b561651e2e0e68912d1d777a45928724cdecb6e",
+                "reference": "3b561651e2e0e68912d1d777a45928724cdecb6e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.20"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                "koodimonni-language/nl_nl": "*",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpcompatibility/php-compatibility": "^9.3",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpmd/phpmd": "^2.4",
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "roots/wordpress": "^5.5",
+                "squizlabs/php_codesniffer": "^3.5",
+                "wp-coding-standards/wpcs": "^2.3",
+                "wp-phpunit/wp-phpunit": "^5.5"
+            },
+            "time": "2020-11-09T10:39:56+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\WordPress\\GravityFormsNL\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "WordPress Gravity Forms (nl) library.",
+            "install-path": "../pronamic/wp-gravityforms-nl"
+        },
+        {
+            "name": "pronamic/wp-money",
+            "version": "1.2.6",
+            "version_normalized": "1.2.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pronamic/wp-money.git",
+                "reference": "2e83eccbca13475ce3b11d3e354c06b66da896c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pronamic/wp-money/zipball/2e83eccbca13475ce3b11d3e354c06b66da896c6",
+                "reference": "2e83eccbca13475ce3b11d3e354c06b66da896c6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.20"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                "koodimonni-language/de_de": "*",
+                "koodimonni-language/fr_fr": "*",
+                "koodimonni-language/nl_nl": "*",
+                "php-coveralls/php-coveralls": "^2.4",
+                "phpcompatibility/php-compatibility": "^9.1",
+                "phpcompatibility/phpcompatibility-wp": "^2.0",
+                "phpmd/phpmd": "^2.4",
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "roots/wordpress": "^5.6",
+                "squizlabs/php_codesniffer": "^3.4",
+                "vlucas/phpdotenv": "^2.0",
+                "wp-coding-standards/wpcs": "^2.3",
+                "wp-phpunit/wp-phpunit": "^5.6"
+            },
+            "time": "2021-04-26T13:21:46+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\WordPress\\Money\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "WordPress Money library.",
+            "install-path": "../pronamic/wp-money"
+        },
+        {
+            "name": "razorpay/razorpay",
+            "version": "2.6.1",
+            "version_normalized": "2.6.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/razorpay/razorpay-php.git",
+                "reference": "2d736a50c991440ae129b846a319b2172a17c404"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/razorpay/razorpay-php/zipball/2d736a50c991440ae129b846a319b2172a17c404",
+                "reference": "2d736a50c991440ae129b846a319b2172a17c404",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.3.0",
+                "rmccue/requests": "v1.8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8|~5.0",
+                "raveren/kint": "1.*"
+            },
+            "time": "2021-04-30T06:31:05+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Razorpay\\Api\\": "src/",
+                    "Razorpay\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abhay Rana",
+                    "email": "nemo@razorpay.com",
+                    "homepage": "https://captnemo.in",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Shashank Kumar",
+                    "email": "shashank@razorpay.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Razorpay PHP Client Library",
+            "homepage": "https://docs.razorpay.com",
+            "keywords": [
+                "api",
+                "client",
+                "php",
+                "razorpay"
+            ],
+            "support": {
+                "email": "contact@razorpay.com",
+                "issues": "https://github.com/Razorpay/razorpay-php/issues",
+                "source": "https://github.com/Razorpay/razorpay-php"
+            },
+            "install-path": "../razorpay/razorpay"
+        },
+        {
+            "name": "rmccue/requests",
+            "version": "v1.8.0",
+            "version_normalized": "1.8.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WordPress/Requests.git",
+                "reference": "afbe4790e4def03581c4a0963a1e8aa01f6030f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WordPress/Requests/zipball/afbe4790e4def03581c4a0963a1e8aa01f6030f1",
+                "reference": "afbe4790e4def03581c4a0963a1e8aa01f6030f1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                "php-parallel-lint/php-console-highlighter": "^0.5.0",
+                "php-parallel-lint/php-parallel-lint": "^1.3",
+                "phpcompatibility/php-compatibility": "^9.0",
+                "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5 || ^7.5",
+                "requests/test-server": "dev-master",
+                "squizlabs/php_codesniffer": "^3.5",
+                "wp-coding-standards/wpcs": "^2.0"
+            },
+            "time": "2021-04-27T11:05:25+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Requests": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan McCue",
+                    "homepage": "http://ryanmccue.info"
+                }
+            ],
+            "description": "A HTTP library written in PHP, for human beings.",
+            "homepage": "http://github.com/WordPress/Requests",
+            "keywords": [
+                "curl",
+                "fsockopen",
+                "http",
+                "idna",
+                "ipv6",
+                "iri",
+                "sockets"
+            ],
+            "support": {
+                "issues": "https://github.com/WordPress/Requests/issues",
+                "source": "https://github.com/WordPress/Requests/tree/v1.8.0"
+            },
+            "install-path": "../rmccue/requests"
+        },
+        {
+            "name": "stripe/stripe-php",
+            "version": "v7.77.0",
+            "version_normalized": "7.77.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stripe/stripe-php.git",
+                "reference": "f6724447481f6fb8c2e714165e092adad9ca470a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/f6724447481f6fb8c2e714165e092adad9ca470a",
+                "reference": "f6724447481f6fb8c2e714165e092adad9ca470a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "2.17.1",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5.7",
+                "squizlabs/php_codesniffer": "^3.3",
+                "symfony/process": "~3.4"
+            },
+            "time": "2021-04-12T17:19:16+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Stripe\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stripe and contributors",
+                    "homepage": "https://github.com/stripe/stripe-php/contributors"
+                }
+            ],
+            "description": "Stripe PHP Library",
+            "homepage": "https://stripe.com/",
+            "keywords": [
+                "api",
+                "payment processing",
+                "stripe"
+            ],
+            "install-path": "../stripe/stripe-php"
+        },
+        {
+            "name": "viison/address-splitter",
+            "version": "0.3.4",
+            "version_normalized": "0.3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pickware/address-splitter.git",
+                "reference": "ebad709276aaadce94a3a1fe2507aa38a467a94a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pickware/address-splitter/zipball/ebad709276aaadce94a3a1fe2507aa38a467a94a",
+                "reference": "ebad709276aaadce94a3a1fe2507aa38a467a94a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "time": "2019-10-24T09:23:47+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "VIISON\\AddressSplitter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "VIISON GmbH",
+                    "email": "contact@viison.com"
+                }
+            ],
+            "description": "Tries to split an address line into street name, house number and other additional information like building, apartment information etc.",
+            "install-path": "../viison/address-splitter"
+        },
+        {
+            "name": "wp-pay-extensions/charitable",
+            "version": "dev-knitpay-master",
+            "version_normalized": "dev-knitpay-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/knit-pay/extension-charitable",
+                "reference": "4b0d1ef4cbbae54e1089fc8379981fae80036ca8"
+            },
+            "require": {
+                "php": ">=5.6.20",
+                "wp-pay/core": "^2.6"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4",
+                "charitable/charitable": "^1.6",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "php-coveralls/php-coveralls": "^2.4",
+                "phpcompatibility/php-compatibility": "^9.3",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpmd/phpmd": "^2.9",
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "roots/wordpress": "^5.6",
+                "squizlabs/php_codesniffer": "^3.5",
+                "wp-coding-standards/wpcs": "^2.3",
+                "wp-phpunit/wp-phpunit": "^5.6"
+            },
+            "time": "2021-02-18T13:26:10+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\WordPress\\Pay\\Extensions\\Charitable\\": "src/"
+                }
+            },
+            "scripts": {
+                "coveralls": [
+                    "vendor/bin/coveralls -v"
+                ],
+                "phpcbf": [
+                    "vendor/bin/phpcbf"
+                ],
+                "phpcs": [
+                    "vendor/bin/phpcs -s -v"
+                ],
+                "phplint": [
+                    "find src tests -name '*.php' | xargs -n 1 -P 4 php -l"
+                ],
+                "phpmd": [
+                    "vendor/bin/phpmd src,tests text phpmd.ruleset.xml --suffixes php"
+                ],
+                "phpstan": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "phpunit": [
+                    "vendor/bin/phpunit"
+                ],
+                "post-install-cmd": [
+                    "echo 'Optionally run: composer bin all install'"
+                ],
+                "post-update-cmd": [
+                    "echo 'Optionally run: composer bin all update'"
+                ],
+                "psalm": [
+                    "vendor/bin/psalm"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pronamic",
+                    "email": "info@pronamic.eu",
+                    "homepage": "http://www.pronamic.eu/",
+                    "role": "Company"
+                },
+                {
+                    "name": "Remco Tolsma",
+                    "email": "info@remcotolsma.nl",
+                    "homepage": "http://www.remcotolsma.nl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Charitable driver for the WordPress payment processing library.",
+            "homepage": "http://www.wp-pay.org/extensions/charitable/",
+            "keywords": [
+                "charitable",
+                "extension",
+                "pay",
+                "pronamic",
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "email": "support@wp-pay.org",
+                "issues": "https://github.com/wp-pay-extensions/charitable/issues",
+                "source": "https://github.com/wp-pay-extensions/charitable"
+            },
+            "install-path": "../wp-pay-extensions/charitable"
+        },
+        {
+            "name": "wp-pay-extensions/easy-digital-downloads",
+            "version": "dev-knitpay-master",
+            "version_normalized": "dev-knitpay-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/knit-pay/extension-easy-digital-downloads",
+                "reference": "3a9870be16dcf3693022cb947a93da157c12d8de"
+            },
+            "require": {
+                "php": ">=5.6.20",
+                "wp-pay/core": "^2.6"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "easydigitaldownloads/easy-digital-downloads": "^2.9",
+                "php-coveralls/php-coveralls": "^2.4",
+                "phpcompatibility/php-compatibility": "^9.1",
+                "phpcompatibility/phpcompatibility-wp": "^2.0",
+                "phpmd/phpmd": "^2.7",
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "roots/wordpress": "^5.6",
+                "squizlabs/php_codesniffer": "^3.4",
+                "wp-coding-standards/wpcs": "^2.3",
+                "wp-phpunit/wp-phpunit": "^5.6"
+            },
+            "time": "2021-05-01T14:40:58+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\WordPress\\Pay\\Extensions\\EasyDigitalDownloads\\": "src"
+                }
+            },
+            "scripts": {
+                "coveralls": [
+                    "vendor/bin/php-coveralls -v"
+                ],
+                "phpcbf": [
+                    "vendor/bin/phpcbf"
+                ],
+                "phpcs": [
+                    "vendor/bin/phpcs -s -v"
+                ],
+                "phplint": [
+                    "find src tests -name '*.php' | xargs -n 1 -P 4 php -l"
+                ],
+                "phpmd": [
+                    "vendor/bin/phpmd src,tests text phpmd.ruleset.xml --suffixes php"
+                ],
+                "phpstan": [
+                    "vendor/bin/phpstan analyse --memory-limit=-1"
+                ],
+                "phpunit": [
+                    "vendor/bin/phpunit"
+                ],
+                "post-install-cmd": [
+                    "echo 'Optionally run: composer bin all install'"
+                ],
+                "post-update-cmd": [
+                    "echo 'Optionally run: composer bin all update'"
+                ],
+                "psalm": [
+                    "vendor/bin/psalm"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pronamic",
+                    "email": "info@pronamic.eu",
+                    "homepage": "http://www.pronamic.eu/",
+                    "role": "Company"
+                },
+                {
+                    "name": "Remco Tolsma",
+                    "email": "info@remcotolsma.nl",
+                    "homepage": "http://www.remcotolsma.nl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easy Digital Downloads driver for the WordPress payment processing library.",
+            "homepage": "http://www.wp-pay.org/extensions/easy-digital-downloads/",
+            "keywords": [
+                "digital",
+                "downlaods",
+                "easy",
+                "edd",
+                "extension",
+                "pay",
+                "pronamic",
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "email": "support@wp-pay.org",
+                "issues": "https://github.com/wp-pay-extensions/easy-digital-downloads/issues",
+                "source": "https://github.com/wp-pay-extensions/easy-digital-downloads"
+            },
+            "install-path": "../wp-pay-extensions/easy-digital-downloads"
+        },
+        {
+            "name": "wp-pay-extensions/formidable-forms",
+            "version": "dev-knitpay-master",
+            "version_normalized": "dev-knitpay-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/knit-pay/extension-formidable-forms",
+                "reference": "ea2f20a5c3a1379441b98c1aa8b74c7730e84df3"
+            },
+            "require": {
+                "php": ">=5.6.20",
+                "wp-pay/core": "^2.6"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                "php-coveralls/php-coveralls": "^2.4",
+                "phpcompatibility/php-compatibility": "^9.1",
+                "phpcompatibility/phpcompatibility-wp": "^2.0",
+                "phpmd/phpmd": "^2.7",
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "roots/wordpress": "^5.6",
+                "squizlabs/php_codesniffer": "^3.4",
+                "wp-coding-standards/wpcs": "^2.3",
+                "wp-phpunit/wp-phpunit": "^5.6"
+            },
+            "time": "2021-02-17T14:36:13+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\WordPress\\Pay\\Extensions\\FormidableForms\\": "src/"
+                }
+            },
+            "scripts": {
+                "coveralls": [
+                    "vendor/bin/php-coveralls -v"
+                ],
+                "phpcbf": [
+                    "vendor/bin/phpcbf"
+                ],
+                "phpcs": [
+                    "vendor/bin/phpcs -s -v"
+                ],
+                "phplint": [
+                    "find src tests -name '*.php' | xargs -n 1 -P 4 php -l"
+                ],
+                "phpmd": [
+                    "vendor/bin/phpmd src,tests text phpmd.ruleset.xml --suffixes php"
+                ],
+                "phpstan": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "phpunit": [
+                    "vendor/bin/phpunit"
+                ],
+                "post-install-cmd": [
+                    "echo 'Optionally run: composer bin all install'"
+                ],
+                "post-update-cmd": [
+                    "echo 'Optionally run: composer bin all update'"
+                ],
+                "psalm": [
+                    "vendor/bin/psalm"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pronamic",
+                    "email": "info@pronamic.eu",
+                    "homepage": "http://www.pronamic.eu/",
+                    "role": "Company"
+                },
+                {
+                    "name": "Remco Tolsma",
+                    "email": "info@remcotolsma.nl",
+                    "homepage": "http://www.remcotolsma.nl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Formidable Forms driver for the WordPress payment processing library.",
+            "homepage": "http://www.wp-pay.org/extensions/formidable-forms/",
+            "keywords": [
+                "extension",
+                "formidable",
+                "forms",
+                "pay",
+                "pronamic",
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "email": "support@wp-pay.org",
+                "issues": "https://github.com/wp-pay-extensions/formidable-forms/issues",
+                "source": "https://github.com/wp-pay-extensions/formidable-forms"
+            },
+            "install-path": "../wp-pay-extensions/formidable-forms"
+        },
+        {
+            "name": "wp-pay-extensions/give",
+            "version": "dev-knitpay-master",
+            "version_normalized": "dev-knitpay-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/knit-pay/extension-give",
+                "reference": "dd2542aa04ff6ce273c66a7eaca5664a2b34ac30"
+            },
+            "require": {
+                "php": ">=5.6.20",
+                "wp-pay/core": "^2.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "impress-org/givewp": "^2.5",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpcompatibility/php-compatibility": "^9.1",
+                "phpcompatibility/phpcompatibility-wp": "^2.0",
+                "phpmd/phpmd": "^2.7",
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "roots/wordpress": "^5.6",
+                "squizlabs/php_codesniffer": "^3.4",
+                "wp-coding-standards/wpcs": "^2.1",
+                "wp-phpunit/wp-phpunit": "^5.6"
+            },
+            "time": "2021-02-17T12:38:43+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\WordPress\\Pay\\Extensions\\Give\\": "src/"
+                }
+            },
+            "scripts": {
+                "coveralls": [
+                    "vendor/bin/coveralls -v"
+                ],
+                "phpcbf": [
+                    "vendor/bin/phpcbf"
+                ],
+                "phpcs": [
+                    "vendor/bin/phpcs -s -v"
+                ],
+                "phplint": [
+                    "find src tests -name '*.php' | xargs -n 1 -P 4 php -l"
+                ],
+                "phpmd": [
+                    "vendor/bin/phpmd src,tests text phpmd.ruleset.xml --suffixes php"
+                ],
+                "phpunit": [
+                    "vendor/bin/phpunit"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pronamic",
+                    "email": "info@pronamic.eu",
+                    "homepage": "http://www.pronamic.eu/",
+                    "role": "Company"
+                },
+                {
+                    "name": "Remco Tolsma",
+                    "email": "info@remcotolsma.nl",
+                    "homepage": "http://www.remcotolsma.nl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Give driver for the WordPress payment processing library.",
+            "homepage": "http://www.wp-pay.org/extensions/give/",
+            "keywords": [
+                "extension",
+                "give",
+                "pay",
+                "pronamic",
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "email": "support@wp-pay.org",
+                "issues": "https://github.com/wp-pay-extensions/give/issues",
+                "source": "https://github.com/wp-pay-extensions/give"
+            },
+            "install-path": "../wp-pay-extensions/give"
+        },
+        {
+            "name": "wp-pay-extensions/gravityforms",
+            "version": "dev-knitpay-master",
+            "version_normalized": "dev-knitpay-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/knit-pay/extension-gravityforms",
+                "reference": "f8b093178aaeb6bdcbfd604c59ca8bfff2ed1cfd"
+            },
+            "require": {
+                "php": ">=5.6.20",
+                "pronamic/wp-gravityforms-nl": "^3.0",
+                "wp-pay/core": "^2.5"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "php-coveralls/php-coveralls": "^2.3",
+                "phpcompatibility/php-compatibility": "^9.3",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpmd/phpmd": "^2.9",
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "roots/wordpress": "^5.6",
+                "squizlabs/php_codesniffer": "^3.5",
+                "wp-coding-standards/wpcs": "^2.3",
+                "wp-phpunit/wp-phpunit": "^5.6",
+                "wp-premium/gravityforms": "^2.3"
+            },
+            "time": "2021-02-18T15:40:15+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\WordPress\\Pay\\Extensions\\GravityForms\\": "src/"
+                }
+            },
+            "scripts": {
+                "coveralls": [
+                    "vendor/bin/coveralls -v"
+                ],
+                "phpcbf": [
+                    "vendor/bin/phpcbf"
+                ],
+                "phpcs": [
+                    "vendor/bin/phpcs -s -v"
+                ],
+                "phplint": [
+                    "find src tests -name '*.php' | xargs -n 1 -P 4 php -l"
+                ],
+                "phpmd": [
+                    "vendor/bin/phpmd src,tests text phpmd.ruleset.xml --suffixes php"
+                ],
+                "phpunit": [
+                    "vendor/bin/phpunit"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pronamic",
+                    "email": "info@pronamic.eu",
+                    "homepage": "http://www.pronamic.eu/",
+                    "role": "Company"
+                },
+                {
+                    "name": "Remco Tolsma",
+                    "email": "info@remcotolsma.nl",
+                    "homepage": "http://www.remcotolsma.nl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Gravity Forms driver for the WordPress payment processing library.",
+            "homepage": "http://www.wp-pay.org/extensions/gravityforms/",
+            "keywords": [
+                "extension",
+                "gravityforms",
+                "pay",
+                "pronamic",
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "email": "support@wp-pay.org",
+                "issues": "https://github.com/wp-pay-extensions/gravityforms/issues",
+                "source": "https://github.com/wp-pay-extensions/gravityforms"
+            },
+            "install-path": "../wp-pay-extensions/gravityforms"
+        },
+        {
+            "name": "wp-pay-extensions/memberpress",
+            "version": "dev-knitpay-master",
+            "version_normalized": "dev-knitpay-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/knit-pay/extension-memberpress",
+                "reference": "5c8cb0e432ffdcfe6292b21b9f42178d94bc2605"
+            },
+            "require": {
+                "php": ">=5.6.20",
+                "wp-pay/core": "^2.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpcompatibility/php-compatibility": "^9.2",
+                "phpcompatibility/phpcompatibility-wp": "^2.0",
+                "phpmd/phpmd": "^2.7",
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "roots/wordpress": "^5.6",
+                "squizlabs/php_codesniffer": "^3.4",
+                "wp-coding-standards/wpcs": "^2.1",
+                "wp-phpunit/wp-phpunit": "^5.6",
+                "wp-premium/memberpress-basic": "^1.3"
+            },
+            "time": "2021-02-17T07:20:19+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\WordPress\\Pay\\Extensions\\MemberPress\\": "src/"
+                }
+            },
+            "scripts": {
+                "coveralls": [
+                    "vendor/bin/coveralls -v"
+                ],
+                "phpcbf": [
+                    "vendor/bin/phpcbf"
+                ],
+                "phpcs": [
+                    "vendor/bin/phpcs -s -v"
+                ],
+                "phplint": [
+                    "find src tests -name '*.php' | xargs -n 1 -P 4 php -l"
+                ],
+                "phpmd": [
+                    "vendor/bin/phpmd src,tests text phpmd.ruleset.xml --suffixes php"
+                ],
+                "phpunit": [
+                    "vendor/bin/phpunit"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pronamic",
+                    "email": "info@pronamic.eu",
+                    "homepage": "http://www.pronamic.eu/",
+                    "role": "Company"
+                },
+                {
+                    "name": "Remco Tolsma",
+                    "email": "info@remcotolsma.nl",
+                    "homepage": "http://www.remcotolsma.nl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "MemberPress driver for the WordPress payment processing library.",
+            "homepage": "http://www.wp-pay.org/extensions/memberpress/",
+            "keywords": [
+                "extension",
+                "memberpress",
+                "pay",
+                "pronamic",
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "email": "support@wp-pay.org",
+                "issues": "https://github.com/wp-pay-extensions/memberpress/issues",
+                "source": "https://github.com/wp-pay-extensions/memberpress"
+            },
+            "install-path": "../wp-pay-extensions/memberpress"
+        },
+        {
+            "name": "wp-pay-extensions/ninjaforms",
+            "version": "dev-knitpay-master",
+            "version_normalized": "dev-knitpay-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/knit-pay/extension-ninjaforms",
+                "reference": "f487d9cacc6f323e030856a7d408b906f6912e6f"
+            },
+            "require": {
+                "php": ">=5.6.20",
+                "wp-pay/core": "^2.6"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                "php-coveralls/php-coveralls": "^2.4",
+                "phpcompatibility/php-compatibility": "^9.2",
+                "phpcompatibility/phpcompatibility-wp": "^2.0",
+                "phpmd/phpmd": "^2.7",
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "roots/wordpress": "^5.6",
+                "squizlabs/php_codesniffer": "^3.4",
+                "wp-coding-standards/wpcs": "^2.3",
+                "wp-phpunit/wp-phpunit": "^5.6",
+                "wpackagist-plugin/ninja-forms": "3.4.33"
+            },
+            "time": "2021-03-22T10:33:48+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\WordPress\\Pay\\Extensions\\NinjaForms\\": "src/"
+                }
+            },
+            "scripts": {
+                "coveralls": [
+                    "vendor/bin/php-coveralls -v"
+                ],
+                "phpcbf": [
+                    "vendor/bin/phpcbf"
+                ],
+                "phpcs": [
+                    "vendor/bin/phpcs -s -v"
+                ],
+                "phplint": [
+                    "find src tests -name '*.php' | xargs -n 1 -P 4 php -l"
+                ],
+                "phpmd": [
+                    "vendor/bin/phpmd src,tests text phpmd.ruleset.xml --suffixes php"
+                ],
+                "phpstan": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "phpunit": [
+                    "vendor/bin/phpunit"
+                ],
+                "post-install-cmd": [
+                    "echo 'Optionally run: composer bin all install'"
+                ],
+                "post-update-cmd": [
+                    "echo 'Optionally run: composer bin all update'"
+                ],
+                "psalm": [
+                    "vendor/bin/psalm"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pronamic",
+                    "email": "info@pronamic.eu",
+                    "homepage": "http://www.pronamic.eu/",
+                    "role": "Company"
+                },
+                {
+                    "name": "Ruben Droogh",
+                    "homepage": "http://www.rubendroogh.nl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Ninja Forms driver for the WordPress payment processing library.",
+            "keywords": [
+                "extension",
+                "forms",
+                "ninja",
+                "pay",
+                "pronamic",
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "email": "support@wp-pay.org",
+                "issues": "https://github.com/wp-pay-extensions/ninjaforms/issues",
+                "source": "https://github.com/wp-pay-extensions/ninjaforms"
+            },
+            "install-path": "../wp-pay-extensions/ninjaforms"
+        },
+        {
+            "name": "wp-pay-extensions/restrict-content-pro",
+            "version": "dev-knitpay-master",
+            "version_normalized": "dev-knitpay-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/knit-pay/extension-restrict-content-pro",
+                "reference": "e035ea5bde6647fb82c2d1da7f3154cda8354d82"
+            },
+            "require": {
+                "php": ">=5.6.20",
+                "pronamic/wp-money": "^1.2",
+                "wp-pay/core": "^2.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpcompatibility/php-compatibility": "^9.3",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpmd/phpmd": "^2.7",
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "restrictcontentpro/restrict-content": "2.2.3",
+                "roots/wordpress": "^5.6",
+                "squizlabs/php_codesniffer": "^3.5",
+                "wp-coding-standards/wpcs": "^2.2",
+                "wp-phpunit/wp-phpunit": "^5.6"
+            },
+            "time": "2021-03-01T12:37:10+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\WordPress\\Pay\\Extensions\\RestrictContentPro\\": "src/"
+                }
+            },
+            "scripts": {
+                "coveralls": [
+                    "vendor/bin/coveralls -v"
+                ],
+                "phpcbf": [
+                    "vendor/bin/phpcbf"
+                ],
+                "phpcs": [
+                    "vendor/bin/phpcs -s -v"
+                ],
+                "phplint": [
+                    "find src tests -name '*.php' | xargs -n 1 -P 4 php -l"
+                ],
+                "phpmd": [
+                    "vendor/bin/phpmd src,tests text phpmd.ruleset.xml --suffixes php"
+                ],
+                "phpunit": [
+                    "vendor/bin/phpunit --colors=always"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pronamic",
+                    "email": "info@pronamic.eu",
+                    "homepage": "http://www.pronamic.eu/",
+                    "role": "Company"
+                },
+                {
+                    "name": "Remco Tolsma",
+                    "email": "info@remcotolsma.nl",
+                    "homepage": "http://www.remcotolsma.nl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Restrict Content Pro driver for the WordPress payment processing library.",
+            "homepage": "http://www.wp-pay.org/extensions/restrict-content-pro/",
+            "keywords": [
+                "content",
+                "extension",
+                "pay",
+                "pro",
+                "pronamic",
+                "restrict",
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "email": "support@wp-pay.org",
+                "issues": "https://github.com/wp-pay-extensions/restrict-content-pro/issues",
+                "source": "https://github.com/wp-pay-extensions/restrict-content-pro"
+            },
+            "install-path": "../wp-pay-extensions/restrict-content-pro"
+        },
+        {
+            "name": "wp-pay-extensions/woocommerce",
+            "version": "dev-knitpay-master",
+            "version_normalized": "dev-knitpay-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/knit-pay/extension-woocommerce",
+                "reference": "873fb1993145a7a2d0e0a9f0e5c619f45e8f8df4"
+            },
+            "require": {
+                "php": ">=5.6.20",
+                "wp-pay/core": "^2.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpcompatibility/php-compatibility": "^9.3",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpmd/phpmd": "^2.7",
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "roots/wordpress": "^5.6",
+                "squizlabs/php_codesniffer": "^3.5",
+                "woocommerce/woocommerce": "^4.9",
+                "wp-coding-standards/wpcs": "^2.1",
+                "wp-phpunit/wp-phpunit": "^5.6",
+                "wp-premium/woocommerce-subscriptions": "2.4.7"
+            },
+            "time": "2021-03-08T11:24:49+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\WordPress\\Pay\\Extensions\\WooCommerce\\": "src/"
+                }
+            },
+            "scripts": {
+                "coveralls": [
+                    "vendor/bin/coveralls -v"
+                ],
+                "phpcbf": [
+                    "vendor/bin/phpcbf"
+                ],
+                "phpcs": [
+                    "vendor/bin/phpcs -s -v"
+                ],
+                "phplint": [
+                    "find src tests -name '*.php' | xargs -n 1 -P 4 php -l"
+                ],
+                "phpmd": [
+                    "vendor/bin/phpmd src,tests text phpmd.ruleset.xml --suffixes php"
+                ],
+                "phpunit": [
+                    "vendor/bin/phpunit"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pronamic",
+                    "email": "info@pronamic.eu",
+                    "homepage": "http://www.pronamic.eu/",
+                    "role": "Company"
+                },
+                {
+                    "name": "Remco Tolsma",
+                    "email": "info@remcotolsma.nl",
+                    "homepage": "http://www.remcotolsma.nl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WooCommerce driver for the WordPress payment processing library.",
+            "homepage": "http://www.wp-pay.org/extensions/woocommerce/",
+            "keywords": [
+                "extension",
+                "pay",
+                "pronamic",
+                "woocommerce",
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "email": "support@wp-pay.org",
+                "issues": "https://github.com/wp-pay-extensions/woocommerce/issues",
+                "source": "https://github.com/wp-pay-extensions/woocommerce"
+            },
+            "install-path": "../wp-pay-extensions/woocommerce"
+        },
+        {
+            "name": "wp-pay-gateways/mollie",
+            "version": "2.2.2",
+            "version_normalized": "2.2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-pay-gateways/mollie.git",
+                "reference": "9023e98e821f172c10b1956910de35397b6429b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-pay-gateways/mollie/zipball/9023e98e821f172c10b1956910de35397b6429b5",
+                "reference": "9023e98e821f172c10b1956910de35397b6429b5",
+                "shasum": ""
+            },
+            "require": {
+                "justinrainbow/json-schema": "^5.2",
+                "php": ">=5.6.20",
+                "wp-pay/core": "^2.6"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                "overtrue/phplint": "^2.3",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpcompatibility/php-compatibility": "^9.2",
+                "phpcompatibility/phpcompatibility-wp": "^2.0",
+                "phpmd/phpmd": "^2.7",
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "roots/wordpress": "^5.6",
+                "squizlabs/php_codesniffer": "^3.5",
+                "wp-cli/wp-cli": "^2.3",
+                "wp-coding-standards/wpcs": "^2.3",
+                "wp-phpunit/wp-phpunit": "^5.6"
+            },
+            "time": "2021-02-08T09:29:28+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\WordPress\\Pay\\Gateways\\Mollie\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pronamic",
+                    "email": "info@pronamic.eu",
+                    "homepage": "http://www.pronamic.eu/",
+                    "role": "Company"
+                },
+                {
+                    "name": "Remco Tolsma",
+                    "email": "info@remcotolsma.nl",
+                    "homepage": "http://www.remcotolsma.nl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Mollie driver for the WordPress payment processing library.",
+            "homepage": "http://www.wp-pay.org/gateways/mollie/",
+            "keywords": [
+                "gateway",
+                "mollie",
+                "pay",
+                "pronamic",
+                "wordpress",
+                "wp"
+            ],
+            "install-path": "../wp-pay-gateways/mollie"
+        },
+        {
+            "name": "wp-pay/core",
+            "version": "dev-knitpay-master",
+            "version_normalized": "dev-knitpay-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/knit-pay/wp-pay-core",
+                "reference": "e35bb664ce98d5996f3f81e1a934f2f9d9e45aef"
+            },
+            "require": {
+                "composer/installers": "^1.7",
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "ext-simplexml": "*",
+                "php": ">=5.6.20",
+                "pronamic/wp-datetime": "^1.2",
+                "pronamic/wp-money": "^1.2",
+                "viison/address-splitter": "^0.3.4"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                "overtrue/phplint": "^2.2",
+                "php-coveralls/php-coveralls": "^2.4",
+                "php-stubs/wp-cli-stubs": "^2.4",
+                "phpcompatibility/php-compatibility": "^9.3",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpmd/phpmd": "^2.9",
+                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0",
+                "roots/wordpress": "^5.6",
+                "squizlabs/php_codesniffer": "^3.5",
+                "wp-cli/wp-cli": "^2.3",
+                "wp-coding-standards/wpcs": "^2.3",
+                "wp-phpunit/wp-phpunit": "^5.6",
+                "wpackagist-plugin/shortcode-ui": "^0.7"
+            },
+            "time": "2021-04-28T12:38:42+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\WordPress\\Pay\\": "src/"
+                },
+                "files": [
+                    "includes/functions.php",
+                    "includes/xmlseclibs/xmlseclibs-ing.php"
+                ]
+            },
+            "scripts": {
+                "coveralls": [
+                    "vendor/bin/php-coveralls -v"
+                ],
+                "phpcbf": [
+                    "vendor/bin/phpcbf"
+                ],
+                "phpcs": [
+                    "vendor/bin/phpcs -s -v"
+                ],
+                "phplint": [
+                    "vendor/bin/phplint"
+                ],
+                "phpmd": [
+                    "vendor/bin/phpmd src,tests text phpmd.ruleset.xml --suffixes php"
+                ],
+                "phpstan": [
+                    "vendor/bin/phpstan analyse --memory-limit=-1"
+                ],
+                "phpunit": [
+                    "vendor/bin/phpunit --colors=always"
+                ],
+                "post-install-cmd": [
+                    "echo 'Optionally run: composer bin all install'"
+                ],
+                "post-update-cmd": [
+                    "echo 'Optionally run: composer bin all update'"
+                ],
+                "psalm": [
+                    "vendor/bin/psalm"
+                ],
+                "xmllint-phpcs": [
+                    "xmllint --noout --schema vendor/squizlabs/php_codesniffer/phpcs.xsd phpcs.xml.dist"
+                ],
+                "xmllint": [
+                    "@xmllint-phpcs"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pronamic",
+                    "email": "info@pronamic.eu",
+                    "homepage": "https://www.pronamic.eu/",
+                    "role": "Company"
+                },
+                {
+                    "name": "Remco Tolsma",
+                    "email": "info@remcotolsma.nl",
+                    "homepage": "https://www.remcotolsma.nl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Core components for the WordPress payment processing library.",
+            "homepage": "https://www.wp-pay.org/",
+            "keywords": [
+                "core",
+                "gateway",
+                "pay",
+                "pronamic",
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "email": "support@wp-pay.org",
+                "issues": "https://github.com/wp-pay/core/issues",
+                "source": "https://github.com/wp-pay/core"
+            },
+            "install-path": "../wp-pay/core"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

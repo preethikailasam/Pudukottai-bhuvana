@@ -1,0 +1,36 @@
+/*
+Theme Name: Zoom Lite
+Author: GhozyLab
+Theme URI: https://themes.ghozylab.com/zoom
+Description: Zoom Lite is a free WordPress theme. It's perfect for blog, personal portfolio, web agency business, business portfolio, corporate business, one page, landing page, photography sites or freelancer. Zoom Lite is 100% responsive, clean, modern, flat and minimal. Zoom Lite is WooCommerce storefront ready, WPML, RTL and also SEO Friendly. This theme also translation-ready, supports image header, gallery, featured images, has three widget in footer areas and includes a sliding menu for mobile screens and includes a full-width template. Zoom Lite works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Built with SEO in mind, Zoom Lite comes with Schema.org code integrated so search engines will love your site.
+Version: 1.0.0.79
+Tested up to: 5.7
+Requires at least: 4.7
+Requires PHP: 5.2.4
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: zoom-lite
+Tags: e-commerce, custom-header, left-sidebar, right-sidebar, blog, custom-background, custom-colors, custom-menu, featured-images, full-width-template, sticky-post, threaded-comments, theme-options, translation-ready, editor-style, custom-logo, two-columns, one-column, grid-layout, footer-widgets, flexible-header, post-formats, portfolio
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Zoom Lite is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+
+/*----------------------------------------------------------------------------------
+The main css stylesheet of the Zoom Lite theme is located in /assets/css/main.css.
+-----------------------------------------------------------------------------------*/ 
+
+
+/*
+Developers Recommendation
+To make it easy to update your theme, you should NOT add your custom css rules to this file. Instead use
+a child theme to add your styles. You can copy a style from /assets/css/main.css and paste in the child
+theme's style.css and it will override the style in this file. You have been warned! :)
+
+If you don't know what a child theme is, you really want to spend 5 minutes learning how to use child themes in WordPress, you won't regret it :) !
+https://codex.wordpress.org/Child_Themes
+*/

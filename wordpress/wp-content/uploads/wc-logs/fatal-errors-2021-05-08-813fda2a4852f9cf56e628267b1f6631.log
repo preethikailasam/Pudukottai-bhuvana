@@ -1,0 +1,6 @@
+2021-05-08T17:17:03+00:00 CRITICAL Cannot redeclare curltest() (previously declared in D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-content\plugins\paytm-payments\woo-paytm.php:87) in D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-content\plugins\edd-paytm-gateway\edd-paytm-gateway.php on line 530
+
+2021-05-08T17:17:07+00:00 CRITICAL Cannot redeclare curltest() (previously declared in D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-content\plugins\paytm-payments\woo-paytm.php:87) in D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-content\plugins\edd-paytm-gateway\edd-paytm-gateway.php on line 530
+
+2021-05-08T17:17:07+00:00 CRITICAL Cannot redeclare curltest() (previously declared in D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-content\plugins\paytm-payments\woo-paytm.php:87) in D:\preethi\xamp\htdocs\bhuvana\wordpress\wp-content\plugins\edd-paytm-gateway\edd-paytm-gateway.php on line 530
+
